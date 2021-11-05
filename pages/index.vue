@@ -1,7 +1,17 @@
 <template>
-  <Tutorial/>
+  <div>
+    <LandingScreen />
+  </div>
 </template>
 
 <script>
-export default {}
+import LandingScreen from '~/containers/landing'
+export default {
+  components: {
+    LandingScreen,
+  },
+  layout: 'landing',
+}
 </script>
+
+<style scoped></style>

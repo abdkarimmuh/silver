@@ -16,7 +16,6 @@ export default {
       },
       { rel: 'stylesheet', href: '/css/flat-ui-kit.css' },
       { rel: 'stylesheet', href: '/css/miri-ui-kit-free.css' },
-      { rel: 'stylesheet', href: '/css/demo.css' },
     ],
     script: [
       { src: '/vendors/jquery/dist/jquery.min.js' },
@@ -27,7 +26,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/css/demo.css.map'],
+  css: ['~/assets/css/custom.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],

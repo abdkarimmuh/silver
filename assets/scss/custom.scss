@@ -3,7 +3,7 @@
     Developed by BootstrapDash(https://www.bootstrapdash.com/)
 */
 
-@import "../../../src/scss/miri-ui-kit/variables";
+@import "../../static/scss/miri-ui-kit/variables";
 
 body {
     font-size: 13px;
@@ -158,5 +158,13 @@ body {
         &::before {
             opacity: 1;
         }
+    }
+}
+
+.url-text{
+    text-decoration: none;
+    color: $input-color;
+    &:hover {
+        text-decoration: none;
     }
 }
