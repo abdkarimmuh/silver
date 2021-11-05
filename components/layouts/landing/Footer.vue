@@ -83,7 +83,11 @@
         "
       >
         <span class="navbar-text">
-          &copy; 2021. Silver Web Apps. All rights reserved.
+          &copy; 2021.
+          <a href="https://github.com/setakarim/silver" target="_blank">
+            Silver Web Apps.
+          </a>
+          All rights reserved.
         </span>
         <div class="navbar-nav ml-auto justify-content-center">
           <a href="#" class="nav-link">Support</a>
