@@ -1,4 +1,4 @@
-# silver
+# Silver Landing Page
 
 ## Build Setup
 
