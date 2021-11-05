@@ -9,7 +9,7 @@ body {
   background-image: linear-gradient(#e4e5e7, #252631); }
 
 .fixed-on-scroll.fixed-on-top .nav-link.icon-fb:hover {
-  color: #E95225; }
+  color: #007bff; }
 
 .fixed-on-scroll.fixed-on-top .nav-link.icon-twitter:hover {
   color: #2dd2f6; }
@@ -18,7 +18,7 @@ body {
   color: #f12459; }
 
 .navbar-dark .navbar-nav .nav-link.icon-fb:hover {
-  color: #E95225; }
+  color: #007bff; }
 
 .navbar-dark .navbar-nav .nav-link.icon-twitter:hover {
   color: #2dd2f6; }
@@ -27,7 +27,7 @@ body {
   color: #f12459; }
 
 .icon-fb:hover {
-  color: #E95225; }
+  color: #007bff; }
 
 .icon-twitter:hover {
   color: #2dd2f6; }
@@ -122,8 +122,27 @@ body {
   .preview-link:hover::before {
     opacity: 1; }
 
+.header-social {
+  position: absolute;
+  bottom: 0; }
+
+.header-social-icon {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 1.23;
+  display: inline-flex;
+  align-items: center; }
+  .header-social-icon:hover {
+    text-decoration: none; }
+
 .url-text {
   text-decoration: none;
   color: #2c2c2c; }
   .url-text:hover {
     text-decoration: none; }
+
+.custom-logo-footer {
+  width: 120px;
+  height: 50px;
+  object-fit: contain; }

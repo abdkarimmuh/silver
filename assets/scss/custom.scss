@@ -14,7 +14,7 @@ body {
 }
 .fixed-on-scroll.fixed-on-top .nav-link{
     &.icon-fb:hover {
-        color: $primary;
+        color: $blue;
     }
     &.icon-twitter:hover {
         color: $info;
@@ -26,7 +26,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link{
     &.icon-fb:hover {
-        color: $primary;
+        color: $blue;
     }
     &.icon-twitter:hover {
         color: $info;
@@ -37,7 +37,7 @@ body {
 }
 
 .icon-fb:hover {
-    color: $primary;
+    color: $blue;
 }
 .icon-twitter:hover {
     color: $info;
@@ -161,10 +161,33 @@ body {
     }
 }
 
-.url-text{
+.header-social {
+    position: absolute;
+    bottom: 0;
+}
+
+.header-social-icon {
+    text-decoration: none;
+    color: $white;
+    font-size: 28px;
+    line-height: 1.23;
+    display: inline-flex;
+    align-items: center;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.url-text {
     text-decoration: none;
     color: $input-color;
     &:hover {
         text-decoration: none;
     }
+}
+
+.custom-logo-footer {
+    width: 120px;
+    height: 50px;
+    object-fit: contain;
 }

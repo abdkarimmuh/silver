@@ -2,26 +2,15 @@
   <footer class="pt-5 mt-5 bg-light">
     <div class="container">
       <section>
-        <div class="row">
+        <div class="row justify-content-between">
           <div class="col-md-4">
             <img src="~/assets/images/logo.svg" class="custom-logo-footer" />
             <p>
               If there is something we can help you with, just let us know.
               We'll be more than happy to offer you our help.
             </p>
-            <p class="footer-social-links mt-4">
-              <a href="#" class="icon-fb">
-                <i class="mdi mdi-facebook-box"> </i>
-              </a>
-              <a href="#" class="icon-twitter">
-                <i class="mdi mdi-twitter-box"> </i>
-              </a>
-              <a href="#" class="icon-insta">
-                <i class="mdi mdi-instagram"> </i>
-              </a>
-            </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-2">
             <div class="font-weight-bold mb-2">Tentang</div>
             <ul class="px-3">
               <li>
@@ -34,29 +23,55 @@
                 <a href="#" class="url-text">Pengurus</a>
               </li>
             </ul>
+            <div class="font-weight-bold mb-2">Publikasi</div>
+            <ul class="px-3">
+              <li>
+                <a href="#" class="url-text">Agenda</a>
+              </li>
+              <li>
+                <a href="#" class="url-text">Blog</a>
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-md-2">
+            <div class="font-weight-bold mb-2">Komunitas</div>
+            <ul class="px-3">
+              <li>
+                <a href="#" class="url-text">Studio</a>
+              </li>
+              <li>
+                <a href="#" class="url-text">Masjid Community</a>
+              </li>
+              <li>
+                <a href="#" class="url-text">Art & Science</a>
+              </li>
+              <li>
+                <a href="#" class="url-text">Sport</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p class="footer-social-links">
+              <a href="#" class="icon-fb">
+                <i class="mdi mdi-facebook-box"> </i>
+              </a>
+              <a href="#" class="icon-twitter">
+                <i class="mdi mdi-twitter-box"> </i>
+              </a>
+              <a href="#" class="icon-insta">
+                <i class="mdi mdi-instagram"> </i>
+              </a>
+            </p>
+            <div class="mb-2">
+              Telepon&nbsp;:
+              <span class="font-weight-bold">0812 3456 7890</span>
+            </div>
+            <div class="mb-2">
+              Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
+              <span class="font-weight-bold">silvercimanggis@gmail.com</span>
+            </div>
+          </div>
         </div>
-        <!-- <h2 class="">Clean and simple theme built with Bootstrap 4</h2>
-        <p>
-          If there is something we can help you with, just let us know. We'll be
-          more than happy to offer you our help.
-        </p>
-        <button class="btn btn-success mt-3">Download Now</button>
-        <p class="footer-social-links my-4">
-          <a href="#" class="icon-fb"><i class="mdi mdi-facebook-box"></i></a>
-          <a href="#" class="icon-twitter"
-            ><i class="mdi mdi-twitter-box"></i
-          ></a>
-          <a href="#" class="icon-insta"><i class="mdi mdi-instagram"></i></a>
-          <a href="#" class="icon-behance"><i class="mdi mdi-behance"></i></a>
-          <a href="#" class="icon-dribbble"
-            ><i class="mdi mdi-dribbble-box"></i
-          ></a>
-          <a href="#" class="icon-github"
-            ><i class="mdi mdi-github-circle"></i
-          ></a>
-        </p> -->
       </section>
       <nav
         class="
@@ -84,10 +99,4 @@
 export default {}
 </script>
 
-<style scoped>
-.custom-logo-footer {
-  width: 145px;
-  height: 64px;
-  object-fit: contain;
-}
-</style>
+<style></style>
