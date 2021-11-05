@@ -16,7 +16,7 @@
               explicabo quis aliquam laborum molestiae sint voluptatum ea beatae
               sunt rerum! Saepe.
             </p>
-            <p><button class="btn btn-primary">Learn more</button></p>
+            <p><button class="btn btn-primary">Selengkapnya</button></p>
           </div>
           <div class="col-md-6 text-right">
             <img
@@ -115,13 +115,13 @@
     <section id="event" class="pt-5"></section>
     <section class="miri-ui-kit-section">
       <div class="container">
-        <h2 class="mb-4">Agenda</h2>
-        <p class="mb-4 pb-3">
+        <h2 class="mb-4 text-center">Agenda</h2>
+        <p class="mb-4 pb-3 text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-5">
-            <div class="bd-example">
+            <div class="bd-example px-3">
               <div
                 id="carouselEventCaptions"
                 class="carousel slide"
@@ -217,7 +217,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12 mb-5">
-            <div class="row px-4 mb-3">
+            <div class="row px-3 mb-3">
               <img src="~/assets/images/img_1.jpg" class="custom-image-event" />
               <div class="col">
                 <a href="#" style="text-decoration: none">
@@ -232,7 +232,7 @@
                 </div>
               </div>
             </div>
-            <div class="row px-4 mb-3">
+            <div class="row px-3 mb-3">
               <img src="~/assets/images/img_2.jpg" class="custom-image-event" />
               <div class="col">
                 <a href="#" style="text-decoration: none">
@@ -247,7 +247,7 @@
                 </div>
               </div>
             </div>
-            <div class="row px-4 mb-3">
+            <div class="row px-3 mb-3">
               <img src="~/assets/images/img_3.jpg" class="custom-image-event" />
               <div class="col">
                 <a href="#" style="text-decoration: none">
@@ -316,7 +316,7 @@
                   do eiusmod tempor incididunt ut.
                 </p>
               </div>
-              <div class="col-md-6 text-right">
+              <div class="col-md-6 text-right-responsive">
                 <button class="btn btn-primary px-5">Gabung</button>
               </div>
             </div>
@@ -333,7 +333,7 @@
         </p>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <div class="bd-example">
+            <div class="bd-example px-3">
               <div
                 id="carouselTestimoniCaptions"
                 class="carousel slide"
@@ -358,15 +358,15 @@
                           the
                         </p>
                         <p class="social-links">
-                          <a href="#" class="icon-fb"
-                            ><i class="mdi mdi-facebook-box"></i
-                          ></a>
-                          <a href="#" class="icon-twitter"
-                            ><i class="mdi mdi-twitter-box"></i
-                          ></a>
-                          <a href="#" class="icon-insta"
-                            ><i class="mdi mdi-instagram"></i
-                          ></a>
+                          <a href="#" class="icon-fb">
+                            <i class="mdi mdi-facebook-box"></i>
+                          </a>
+                          <a href="#" class="icon-twitter">
+                            <i class="mdi mdi-twitter-box"></i>
+                          </a>
+                          <a href="#" class="icon-insta">
+                            <i class="mdi mdi-instagram"></i>
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -389,15 +389,15 @@
                           the
                         </p>
                         <p class="social-links">
-                          <a href="#" class="icon-fb"
-                            ><i class="mdi mdi-facebook-box"></i
-                          ></a>
-                          <a href="#" class="icon-twitter"
-                            ><i class="mdi mdi-twitter-box"></i
-                          ></a>
-                          <a href="#" class="icon-insta"
-                            ><i class="mdi mdi-instagram"></i
-                          ></a>
+                          <a href="#" class="icon-fb">
+                            <i class="mdi mdi-facebook-box"></i>
+                          </a>
+                          <a href="#" class="icon-twitter">
+                            <i class="mdi mdi-twitter-box"></i>
+                          </a>
+                          <a href="#" class="icon-insta">
+                            <i class="mdi mdi-instagram"></i>
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -420,15 +420,15 @@
                           the
                         </p>
                         <p class="social-links">
-                          <a href="#" class="icon-fb"
-                            ><i class="mdi mdi-facebook-box"></i
-                          ></a>
-                          <a href="#" class="icon-twitter"
-                            ><i class="mdi mdi-twitter-box"></i
-                          ></a>
-                          <a href="#" class="icon-insta"
-                            ><i class="mdi mdi-instagram"></i
-                          ></a>
+                          <a href="#" class="icon-fb">
+                            <i class="mdi mdi-facebook-box"></i>
+                          </a>
+                          <a href="#" class="icon-twitter">
+                            <i class="mdi mdi-twitter-box"></i>
+                          </a>
+                          <a href="#" class="icon-insta">
+                            <i class="mdi mdi-instagram"></i>
+                          </a>
                         </p>
                       </div>
                     </div>
@@ -462,85 +462,58 @@
     <section id="blog" class="pt-5"></section>
     <section class="miri-ui-kit-section">
       <div class="container">
-        <h2 class="mb-4">Blog</h2>
-        <p class="mb-4 pb-3">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
+        <div class="row align-items-center mb-4">
+          <div class="col-md-8">
+            <h2 class="mb-4">Blog</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-md-4 text-right-responsive">
+            <button class="btn btn-sm btn-primary">Lihat semua blog</button>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="team-card card border-0">
-              <img
-                src="~/assets/images/team-1.jpg"
-                alt="Team 1"
-                class="card-img-top"
-              />
+            <div class="card border-0">
+              <img src="~/assets/images/team-1.jpg" class="custom-image-blog" />
               <div class="card-body px-0">
-                <h5 class="card-title mb-0">Afonso Pinto</h5>
-                <p class="font-weight-medium designation">Founded & Chairman</p>
+                <h5 class="card-title mb-0">Judul Blog 1</h5>
+                <div class="font-weight-medium text-primary pt-1 pb-2">
+                  Anonymus
+                </div>
                 <p>Achieve virtually any design and layout from with in the</p>
-                <p class="social-links">
-                  <a href="#" class="icon-fb"
-                    ><i class="mdi mdi-facebook-box"></i
-                  ></a>
-                  <a href="#" class="icon-twitter"
-                    ><i class="mdi mdi-twitter-box"></i
-                  ></a>
-                  <a href="#" class="icon-insta"
-                    ><i class="mdi mdi-instagram"></i
-                  ></a>
-                </p>
+                <button class="btn btn-sm btn-soft-primary">
+                  Selengkapnya
+                </button>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="team-card card border-0">
-              <img
-                src="~/assets/images/team-2.jpg"
-                alt="Team 2"
-                class="card-img-top"
-              />
+            <div class="card border-0">
+              <img src="~/assets/images/team-2.jpg" class="custom-image-blog" />
               <div class="card-body px-0">
-                <h5 class="card-title mb-0">Irene Sotelo</h5>
-                <p class="font-weight-medium designation">Frontend Developer</p>
+                <h5 class="card-title mb-0">Judul Blog 2</h5>
+                <div class="font-weight-medium text-primary pt-1 pb-2">
+                  Anonymus
+                </div>
                 <p>Achieve virtually any design and layout from with in the</p>
-                <p class="social-links">
-                  <a href="#" class="icon-fb"
-                    ><i class="mdi mdi-facebook-box"></i
-                  ></a>
-                  <a href="#" class="icon-twitter"
-                    ><i class="mdi mdi-twitter-box"></i
-                  ></a>
-                  <a href="#" class="icon-insta"
-                    ><i class="mdi mdi-instagram"></i
-                  ></a>
-                </p>
+                <button class="btn btn-sm btn-soft-primary">
+                  Selengkapnya
+                </button>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="team-card card border-0">
-              <img
-                src="~/assets/images/team-3.jpg"
-                alt="Team 3"
-                class="card-img-top"
-              />
+            <div class="card border-0">
+              <img src="~/assets/images/team-3.jpg" class="custom-image-blog" />
               <div class="card-body px-0">
-                <h5 class="card-title mb-0">Marama Petera</h5>
-                <p class="font-weight-medium designation">
-                  Designer & Creative Director
-                </p>
+                <h5 class="card-title mb-0">Judul Blog 3</h5>
+                <div class="font-weight-medium text-primary pt-1 pb-2">
+                  Anonymus
+                </div>
                 <p>Achieve virtually any design and layout from with in the</p>
-                <p class="social-links">
-                  <a href="#" class="icon-fb"
-                    ><i class="mdi mdi-facebook-box"></i
-                  ></a>
-                  <a href="#" class="icon-twitter"
-                    ><i class="mdi mdi-twitter-box"></i
-                  ></a>
-                  <a href="#" class="icon-insta"
-                    ><i class="mdi mdi-instagram"></i
-                  ></a>
-                </p>
+                <button class="btn btn-sm btn-soft-primary">
+                  Selengkapnya
+                </button>
               </div>
             </div>
           </div>
@@ -607,7 +580,7 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12 text-right">
+                <div class="col-md-12">
                   <button class="btn btn-primary px-5" type="submit">
                     Kirim Pesan
                   </button>
@@ -663,11 +636,25 @@ export default {
   position: absolute;
   bottom: 0;
 }
+.custom-image-blog {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
 
 .custom-image-event {
-  width: 112px;
+  width: 110px;
   height: 110px;
   object-fit: cover;
+}
+
+.text-right-responsive {
+  text-align: right !important;
+}
+
+.social-links {
+  font-size: 24px;
+  margin-right: 6px;
 }
 
 @media (max-width: 768px) {
@@ -683,6 +670,10 @@ export default {
     height: 250px;
     background-size: cover;
     color: white;
+  }
+
+  .text-right-responsive {
+    text-align: left !important;
   }
 }
 </style>
