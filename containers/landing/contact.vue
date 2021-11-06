@@ -1,7 +1,7 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <h2 class="text-center mb-4">Hubungi Kami</h2>
+      <h2 class="text-center">Hubungi Kami</h2>
       <p class="text-center mb-4 pb-3">
         If there is something we can help you with, just let us know. We'll
         <br />
@@ -49,10 +49,11 @@
             <div class="row mb-3">
               <div class="form-group col-md-12">
                 <label for="message">Pesan</label>
-                <input
+                <textarea
                   id="message"
                   v-model="message"
-                  class="form-control"
+                  multiple
+                  class="form-control custom-text-area"
                   placeholder="Pesan"
                 />
               </div>
@@ -93,4 +94,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.custom-text-area {
+  height: 120px;
+}
+</style>

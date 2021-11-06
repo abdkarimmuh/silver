@@ -13,7 +13,11 @@
             quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum!
             Saepe.
           </p>
-          <p><button class="btn btn-primary">Selengkapnya</button></p>
+          <p>
+            <button class="btn btn-primary" @click="$router.push('/about')">
+              Selengkapnya
+            </button>
+          </p>
         </div>
         <div class="col-md-6 text-right">
           <img src="~/assets/images/about.png" alt="About" class="img-fluid" />

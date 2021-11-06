@@ -12,7 +12,12 @@
               </p>
             </div>
             <div class="col-md-6 text-right-responsive">
-              <button class="btn btn-primary px-5">Gabung</button>
+              <button
+                class="btn btn-primary px-5"
+                @click="$router.push('/join')"
+              >
+                Gabung
+              </button>
             </div>
           </div>
         </div>

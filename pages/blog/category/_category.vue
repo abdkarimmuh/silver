@@ -1,7 +1,7 @@
 <template>
   <div>
     <blog-screen
-      title="Blog"
+      :title="title"
       description="Lorem ipsum dolor sit amet consectetur adipisicing elit."
     />
   </div>
@@ -13,6 +13,11 @@ export default {
   name: 'BlogPages',
   components: { BlogScreen },
   layout: 'default',
+  computed: {
+    title() {
+      return 'Category ' + this.$route.params.category
+    },
+  },
 }
 </script>
 

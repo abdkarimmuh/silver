@@ -3,11 +3,13 @@
     <div class="container">
       <div class="row align-items-center mb-4">
         <div class="col-md-8">
-          <h2 class="mb-4">Blog</h2>
+          <h2>Blog</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col-md-4 text-right-responsive">
-          <button class="btn btn-sm btn-primary">Lihat semua blog</button>
+          <button class="btn btn-sm btn-primary" @click="$router.push('/blog')">
+            Lihat semua blog
+          </button>
         </div>
       </div>
       <div class="row">
@@ -19,7 +21,10 @@
               <div class="font-weight-medium text-primary pt-1 pb-2">
                 Anonymus
               </div>
-              <p>Achieve virtually any design and layout from with in the</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut.
+              </p>
               <button class="btn btn-sm btn-soft-primary">Selengkapnya</button>
             </div>
           </div>
@@ -32,7 +37,10 @@
               <div class="font-weight-medium text-primary pt-1 pb-2">
                 Anonymus
               </div>
-              <p>Achieve virtually any design and layout from with in the</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut.
+              </p>
               <button class="btn btn-sm btn-soft-primary">Selengkapnya</button>
             </div>
           </div>
@@ -45,7 +53,10 @@
               <div class="font-weight-medium text-primary pt-1 pb-2">
                 Anonymus
               </div>
-              <p>Achieve virtually any design and layout from with in the</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut.
+              </p>
               <button class="btn btn-sm btn-soft-primary">Selengkapnya</button>
             </div>
           </div>

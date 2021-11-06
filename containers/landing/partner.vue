@@ -1,7 +1,7 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <h2 class="text-center mb-4">Partner</h2>
+      <h2 class="text-center">Partner</h2>
       <p class="text-center mb-4 pb-3">
         If there is something we can help you with, just let us know. We'll
         <br />

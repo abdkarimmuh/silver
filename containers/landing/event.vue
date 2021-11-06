@@ -27,12 +27,11 @@
                   <div class="bg-carosel-event">
                     <div class="container-content-carosel-event pb-5 px-5">
                       <a href="#" style="text-decoration: none">
-                        <h5 class="text-primary">Title 1</h5>
+                        <h5 class="text-white">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut. 1
+                        </h5>
                       </a>
-                      <div class="font-italic mb-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </div>
                       <div class="text-muted">
                         Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
                       </div>
@@ -43,12 +42,11 @@
                   <div class="bg-carosel-event">
                     <div class="container-content-carosel-event pb-5 px-5">
                       <a href="#" style="text-decoration: none">
-                        <h5 class="text-primary">Title 2</h5>
+                        <h5 class="text-white">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut. 2
+                        </h5>
                       </a>
-                      <div class="font-italic mb-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </div>
                       <div class="text-muted">
                         Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
                       </div>
@@ -59,12 +57,11 @@
                   <div class="bg-carosel-event">
                     <div class="container-content-carosel-event pb-5 px-5">
                       <a href="#" style="text-decoration: none">
-                        <h5 class="text-primary">Title 3</h5>
+                        <h5 class="text-white">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut. 3
+                        </h5>
                       </a>
-                      <div class="font-italic mb-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </div>
                       <div class="text-muted">
                         Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
                       </div>
@@ -98,14 +95,13 @@
             <img src="~/assets/images/img_1.jpg" class="custom-image-event" />
             <div class="col">
               <a href="#" style="text-decoration: none">
-                <h6 class="text-primary">Title 1</h6>
+                <h6 class="text-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut. 1
+                </h6>
               </a>
               <div class="text-muted mb-2">
                 Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-              </div>
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
               </div>
             </div>
           </div>
@@ -113,14 +109,13 @@
             <img src="~/assets/images/img_2.jpg" class="custom-image-event" />
             <div class="col">
               <a href="#" style="text-decoration: none">
-                <h6 class="text-primary">Title 2</h6>
+                <h6 class="text-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut. 2
+                </h6>
               </a>
               <div class="text-muted mb-2">
                 Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-              </div>
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
               </div>
             </div>
           </div>
@@ -128,18 +123,25 @@
             <img src="~/assets/images/img_3.jpg" class="custom-image-event" />
             <div class="col">
               <a href="#" style="text-decoration: none">
-                <h6 class="text-primary">Title 3</h6>
+                <h6 class="text-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut. 3
+                </h6>
               </a>
               <div class="text-muted mb-2">
                 Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
               </div>
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
-              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="row justify-content-center">
+        <button
+          class="btn btn-sm btn-soft-primary px-5"
+          @click="$router.push('/event')"
+        >
+          Lihat semua agenda
+        </button>
       </div>
     </div>
   </section>

@@ -10,7 +10,7 @@
           type="button"
           data-toggle="collapse"
           data-target="#miriUiKitNavbar"
-          aria-controls="navbarSupportedContent2"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >

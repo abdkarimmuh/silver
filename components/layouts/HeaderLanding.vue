@@ -14,15 +14,15 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#miriUiKitNavbar"
-          aria-controls="navbarSupportedContent2"
+          data-target="#miriUiKitNavbarLanding"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="mdi mdi-menu"></span>
         </button>
 
-        <div id="miriUiKitNavbar" class="collapse navbar-collapse">
+        <div id="miriUiKitNavbarLanding" class="collapse navbar-collapse">
           <div class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#home">Beranda</a>
@@ -63,7 +63,7 @@
       </p>
       <p class="mt-3 mb-5">
         <button class="btn btn-soft-primary" @click="$router.push('#about')">
-          Selengkapnya
+          Lihat lebih lanjut
         </button>
       </p>
     </div>

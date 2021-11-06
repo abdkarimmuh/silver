@@ -1,8 +1,8 @@
 <template>
   <section class="miri-ui-kit-section pb-0">
     <div class="container">
-      <h2 class="mb-4 text-center">Testimoni</h2>
-      <p class="mb-4 pb-3 text-center">
+      <h2 class="text-center">Testimoni</h2>
+      <p class="mb-4 text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
       <div class="row justify-content-center">
