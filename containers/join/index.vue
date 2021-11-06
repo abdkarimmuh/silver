@@ -1,14 +1,14 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <h1>About</h1>
+      <h1>Form Join</h1>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'AboutContainers',
+  name: 'FormJoinContainers',
 }
 </script>
 

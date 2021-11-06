@@ -52,7 +52,7 @@
           </div>
         </div>
         <div class="col-md-3">
-          <side-content-blog-components />
+          <sidebar />
         </div>
       </div>
     </div>
@@ -60,13 +60,13 @@
 </template>
 
 <script>
+import Sidebar from './components/Sidebar.vue'
 import BreadcumbComponents from '~/components/Breadcrumb.vue'
-import SideContentBlogComponents from '~/components/SideContentBlog.vue'
 export default {
   name: 'DetailBlogContainers',
   components: {
     BreadcumbComponents,
-    SideContentBlogComponents,
+    Sidebar,
   },
 }
 </script>

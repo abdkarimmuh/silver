@@ -35,11 +35,12 @@
               <a class="nav-link" @click="$router.push('/blog')">Blog</a>
             </li>
 
-            <form class="form-inline ml-lg-3" @click="$router.push('/join')">
-              <button class="btn btn-outline-primary btn-sm" type="submit">
-                Gabung
-              </button>
-            </form>
+            <button
+              class="btn btn-outline-primary btn-sm ml-lg-3"
+              @click="$router.push('/join')"
+            >
+              Gabung
+            </button>
           </div>
         </div>
       </div>
