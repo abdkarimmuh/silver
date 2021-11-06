@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <Header />
-    <Nuxt />
-    <Footer />
+    <header-layout />
+    <nuxt />
+    <footer-layout />
   </div>
 </template>
 
 <script>
-import Header from '~/components/layouts/landing/Header'
-import Footer from '~/components/layouts/landing/Footer'
+import HeaderLayout from '~/components/layouts/HeaderLanding'
+import FooterLayout from '~/components/layouts/Footer'
 
 export default {
-  components: {
-    Header,
-    Footer,
-  },
+  name: 'LandingLayout',
+  components: { HeaderLayout, FooterLayout },
 }
 </script>
 

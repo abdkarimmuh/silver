@@ -100,7 +100,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'FooterLayoutComponents',
+}
 </script>
 
 <style></style>

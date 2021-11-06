@@ -7,7 +7,7 @@
       class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-on-scroll"
     >
       <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" @click="$router.push('/')">
           <img src="~/assets/images/logo-dark.svg" />
         </a>
         <button
@@ -40,8 +40,10 @@
               <a class="nav-link" href="#blog">Blog</a>
             </li>
 
-            <form action="#" class="form-inline ml-lg-3">
-              <button class="btn btn-outline-primary btn-sm">Gabung</button>
+            <form class="form-inline ml-lg-3" @click="$router.push('/join')">
+              <button class="btn btn-outline-primary btn-sm" type="submit">
+                Gabung
+              </button>
             </form>
           </div>
         </div>
@@ -60,7 +62,7 @@
         A beautiful premium bootstrap 4 developed by bootstrapdash.
       </p>
       <p class="mt-3 mb-5">
-        <button class="btn btn-soft-primary" @click="$router.push('/#about')">
+        <button class="btn btn-soft-primary" @click="$router.push('#about')">
           Selengkapnya
         </button>
       </p>
@@ -83,7 +85,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'HeaderLandingLayoutComponents',
+}
 </script>
 
 <style></style>
