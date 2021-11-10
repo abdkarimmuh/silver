@@ -10,7 +10,9 @@
         ]"
       >
         <span v-if="index + 1 === breadcrumbList.length">{{ item.label }}</span>
-        <a v-else :href="'/' + item.path">{{ item.label }}</a>
+        <a v-else href="" @click.prevent="$router.push('/' + item.path)">{{
+          item.label
+        }}</a>
       </li>
     </ol>
   </nav>

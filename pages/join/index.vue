@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import FormJoinScreen from '~/containers/join/index.vue'
+import FormJoinScreen from '~/containers/join'
 export default {
   name: 'FormJoinPages',
   components: { FormJoinScreen },

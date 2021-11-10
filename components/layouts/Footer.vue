@@ -26,7 +26,7 @@
             <div class="font-weight-bold mb-2">Publikasi</div>
             <ul class="px-3">
               <li>
-                <a href="#" class="url-text">Agenda</a>
+                <a href="#" class="url-text">Berita</a>
               </li>
               <li>
                 <a href="#" class="url-text">Blog</a>

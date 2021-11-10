@@ -5,9 +5,9 @@
     <about-section />
     <!-- DIVISION -->
     <division-section />
-    <!-- EVENT -->
-    <section id="event" class="pt-5"></section>
-    <event-section />
+    <!-- NEWS -->
+    <section id="news" class="pt-5"></section>
+    <news-section />
     <!-- PARTNER -->
     <partner-section />
     <!-- JOIN US -->
@@ -25,7 +25,7 @@
 <script>
 import AboutSection from './about.vue'
 import DivisionSection from './division.vue'
-import EventSection from './event.vue'
+import NewsSection from './news.vue'
 import PartnerSection from './partner.vue'
 import JoinUsSection from './join.vue'
 import TestimonialSection from './testimonial.vue'
@@ -37,7 +37,7 @@ export default {
   components: {
     AboutSection,
     DivisionSection,
-    EventSection,
+    NewsSection,
     PartnerSection,
     JoinUsSection,
     TestimonialSection,

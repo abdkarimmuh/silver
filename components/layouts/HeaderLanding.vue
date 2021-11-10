@@ -30,7 +30,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#event">Agenda</a>
+              <a class="nav-link" href="#news">Berita</a>
             </li>
 
             <li class="nav-item">

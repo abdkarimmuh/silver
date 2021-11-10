@@ -1,14 +1,14 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <h1>Event</h1>
+      <h1>Detail</h1>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'EventContainers',
+  name: 'DetailContainers',
 }
 </script>
 

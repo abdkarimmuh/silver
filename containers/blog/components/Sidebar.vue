@@ -4,7 +4,7 @@
       <h6 class="text-warning">Berita Terbaru</h6>
     </div>
     <div class="row px-3 mb-3">
-      <img src="~/assets/images/img_1.jpg" class="custom-image-event" />
+      <img src="~/assets/images/img_1.jpg" class="custom-image-news" />
       <div class="col">
         <a href="#" style="text-decoration: none">
           <div class="text-dark font-weight-bold mb-2">
@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="row px-3 mb-3">
-      <img src="~/assets/images/img_2.jpg" class="custom-image-event" />
+      <img src="~/assets/images/img_2.jpg" class="custom-image-news" />
       <div class="col">
         <a href="#" style="text-decoration: none">
           <div class="text-dark font-weight-bold mb-2">
@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="row px-3 mb-3">
-      <img src="~/assets/images/img_3.jpg" class="custom-image-event" />
+      <img src="~/assets/images/img_3.jpg" class="custom-image-news" />
       <div class="col">
         <a href="#" style="text-decoration: none">
           <div class="text-dark font-weight-bold mb-2">
@@ -64,7 +64,7 @@ export default {
 </script>
 
 <style scoped>
-.custom-image-event {
+.custom-image-news {
   width: 50px;
   height: 50px;
   object-fit: cover;

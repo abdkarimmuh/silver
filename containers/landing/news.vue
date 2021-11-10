@@ -1,7 +1,7 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <h2 class="mb-4 text-center">Agenda</h2>
+      <h2 class="mb-4 text-center">Berita</h2>
       <p class="mb-4 pb-3 text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </p>
@@ -9,69 +9,63 @@
         <div class="col-lg-6 col-md-12 mb-5">
           <div class="bd-example px-3">
             <div
-              id="carouselEventCaptions"
+              id="carouselNewsCaptions"
               class="carousel slide"
               data-ride="carousel"
             >
               <ol class="carousel-indicators">
                 <li
-                  data-target="#carouselEventCaptions"
+                  data-target="#carouselNewsCaptions"
                   data-slide-to="0"
                   class="active"
                 ></li>
-                <li data-target="#carouselEventCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselEventCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselNewsCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselNewsCaptions" data-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <div class="bg-carosel-event">
-                    <div class="container-content-carosel-event pb-5 px-5">
+                  <div class="bg-carosel-news">
+                    <div class="container-content-carosel-news pb-5 px-5">
                       <a href="#" style="text-decoration: none">
                         <h5 class="text-white">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut. 1
                         </h5>
                       </a>
-                      <div class="text-muted">
-                        Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-                      </div>
+                      <div class="text-muted">19 September 2021</div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="bg-carosel-event">
-                    <div class="container-content-carosel-event pb-5 px-5">
+                  <div class="bg-carosel-news">
+                    <div class="container-content-carosel-news pb-5 px-5">
                       <a href="#" style="text-decoration: none">
                         <h5 class="text-white">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut. 2
                         </h5>
                       </a>
-                      <div class="text-muted">
-                        Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-                      </div>
+                      <div class="text-muted">19 September 2021</div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="bg-carosel-event">
-                    <div class="container-content-carosel-event pb-5 px-5">
+                  <div class="bg-carosel-news">
+                    <div class="container-content-carosel-news pb-5 px-5">
                       <a href="#" style="text-decoration: none">
                         <h5 class="text-white">
                           Lorem ipsum dolor sit amet, consectetur adipiscing
                           elit, sed do eiusmod tempor incididunt ut. 3
                         </h5>
                       </a>
-                      <div class="text-muted">
-                        Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-                      </div>
+                      <div class="text-muted">19 September 2021</div>
                     </div>
                   </div>
                 </div>
               </div>
               <a
                 class="carousel-control-prev"
-                href="#carouselEventCaptions"
+                href="#carouselNewsCaptions"
                 role="button"
                 data-slide="prev"
               >
@@ -80,7 +74,7 @@
               </a>
               <a
                 class="carousel-control-next"
-                href="#carouselEventCaptions"
+                href="#carouselNewsCaptions"
                 role="button"
                 data-slide="next"
               >
@@ -92,7 +86,7 @@
         </div>
         <div class="col-lg-6 col-md-12 mb-5">
           <div class="row px-3 mb-3">
-            <img src="~/assets/images/img_1.jpg" class="custom-image-event" />
+            <img src="~/assets/images/img_1.jpg" class="custom-image-news" />
             <div class="col">
               <a href="#" style="text-decoration: none">
                 <h6 class="text-dark">
@@ -100,13 +94,11 @@
                   do eiusmod tempor incididunt ut. 1
                 </h6>
               </a>
-              <div class="text-muted mb-2">
-                Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-              </div>
+              <div class="text-muted mb-2">19 September 2021</div>
             </div>
           </div>
           <div class="row px-3 mb-3">
-            <img src="~/assets/images/img_2.jpg" class="custom-image-event" />
+            <img src="~/assets/images/img_2.jpg" class="custom-image-news" />
             <div class="col">
               <a href="#" style="text-decoration: none">
                 <h6 class="text-dark">
@@ -114,13 +106,11 @@
                   do eiusmod tempor incididunt ut. 2
                 </h6>
               </a>
-              <div class="text-muted mb-2">
-                Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-              </div>
+              <div class="text-muted mb-2">19 September 2021</div>
             </div>
           </div>
           <div class="row px-3 mb-3">
-            <img src="~/assets/images/img_3.jpg" class="custom-image-event" />
+            <img src="~/assets/images/img_3.jpg" class="custom-image-news" />
             <div class="col">
               <a href="#" style="text-decoration: none">
                 <h6 class="text-dark">
@@ -128,9 +118,7 @@
                   do eiusmod tempor incididunt ut. 3
                 </h6>
               </a>
-              <div class="text-muted mb-2">
-                Admin&nbsp;&nbsp;|&nbsp;&nbsp;19 September 2021
-              </div>
+              <div class="text-muted mb-2">19 September 2021</div>
             </div>
           </div>
         </div>
@@ -138,9 +126,9 @@
       <div class="row justify-content-center">
         <button
           class="btn btn-sm btn-soft-primary px-5"
-          @click="$router.push('/event')"
+          @click="$router.push('/news')"
         >
-          Lihat semua agenda
+          Lihat semua berita
         </button>
       </div>
     </div>
@@ -149,12 +137,12 @@
 
 <script>
 export default {
-  name: 'EventLandingContainers',
+  name: 'NewsLandingContainers',
 }
 </script>
 
 <style scoped>
-.bg-carosel-event {
+.bg-carosel-news {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0),
@@ -168,19 +156,19 @@ export default {
   color: white;
 }
 
-.container-content-carosel-event {
+.container-content-carosel-news {
   position: absolute;
   bottom: 0;
 }
 
-.custom-image-event {
+.custom-image-news {
   width: 110px;
   height: 110px;
   object-fit: cover;
 }
 
 @media (max-width: 768px) {
-  .bg-carosel-event {
+  .bg-carosel-news {
     background-image: linear-gradient(
         to bottom,
         rgba(0, 0, 0, 0),

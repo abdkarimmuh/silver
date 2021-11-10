@@ -35,6 +35,6 @@ export default {
     new Promise((resolve) => {
       setTimeout(() => {
         resolve(testimonial)
-      }, 3000)
+      }, 500)
     }),
 }

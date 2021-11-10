@@ -1,7 +1,7 @@
 import { Store } from 'vuex'
 import about from './about'
 import blog from './blog'
-import event from './event'
+import news from './news'
 import landing from './landing'
 import ui from './ui'
 
@@ -10,7 +10,7 @@ const createStore = () => {
     modules: {
       about,
       blog,
-      event,
+      news,
       landing,
       ui,
     },

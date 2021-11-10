@@ -1,14 +1,14 @@
 <template>
   <div>
-    <about-screen />
+    <news-screen />
   </div>
 </template>
 
 <script>
-import AboutScreen from '~/containers/about'
+import NewsScreen from '~/containers/news'
 export default {
-  name: 'AboutPages',
-  components: { AboutScreen },
+  name: 'NewsPages',
+  components: { NewsScreen },
   layout: 'default',
 }
 </script>

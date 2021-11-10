@@ -65,10 +65,4 @@ export default {
     baseURL: process.env.BASE_URL,
     useMock: true,
   },
-
-  loading: {
-    color: '#E95225',
-    height: '6px',
-    throttle: 0,
-  },
 }

@@ -28,7 +28,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" @click="$router.push('/event')">Agenda</a>
+              <a class="nav-link" @click="$router.push('/news')">Berita</a>
             </li>
 
             <li class="nav-item">

@@ -12,6 +12,6 @@ export default {
     new Promise((resolve) => {
       setTimeout(() => {
         resolve(contact)
-      }, 3000)
+      }, 500)
     }),
 }
