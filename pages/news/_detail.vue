@@ -1,14 +1,24 @@
 <template>
-  <div>
-    <detail-news-screen />
-  </div>
+  <section class="miri-ui-kit-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <news-detail-screen />
+        </div>
+        <div class="col-md-3">
+          <sidebar-component />
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
-
 <script>
-import DetailNewsScreen from '~/containers/news/detail.vue'
+import NewsDetailScreen from '~/containers/news/detail.vue'
+import SidebarComponent from '~/containers/news/components/Sidebar.vue'
+
 export default {
   name: 'DetailNewsPages',
-  components: { DetailNewsScreen },
+  components: { NewsDetailScreen, SidebarComponent },
   layout: 'default',
 }
 </script>

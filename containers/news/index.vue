@@ -2,7 +2,7 @@
   <div>
     <section class="miri-ui-kit-section">
       <div class="container mb-3">
-        <h6 class="text-warning mb-2">Berita Utama</h6>
+        <h5 class="text-primary mb-3">Berita Utama</h5>
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-5">
             <img
@@ -108,7 +108,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-5">
-            <h6 class="text-warning mb-2">Studio</h6>
+            <h5 class="text-primary mb-3">Studio</h5>
             <div class="row mb-3 px-3">
               <img src="~/assets/images/img_1.jpg" class="custom-image-news" />
               <div class="col">
@@ -168,6 +168,22 @@
                   <h6 class="text-dark">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut. 1
+                  </h6>
+                </a>
+                <div class="text-muted mb-2">19 September 2021</div>
+              </div>
+            </div>
+            <div class="row mb-3 px-3">
+              <img src="~/assets/images/img_2.jpg" class="custom-image-news" />
+              <div class="col">
+                <a
+                  href=""
+                  style="text-decoration: none"
+                  @click.prevent="$router.push('/news/1')"
+                >
+                  <h6 class="text-dark">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut. 2
                   </h6>
                 </a>
                 <div class="text-muted mb-2">19 September 2021</div>
@@ -183,7 +199,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12 mb-5">
-            <h6 class="text-warning mb-2">Masjid Community</h6>
+            <h5 class="text-primary mb-3">Masjid Community</h5>
             <div class="row mb-3 px-3">
               <img src="~/assets/images/img_1.jpg" class="custom-image-news" />
               <div class="col">
@@ -243,6 +259,22 @@
                   <h6 class="text-dark">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut. 1
+                  </h6>
+                </a>
+                <div class="text-muted mb-2">19 September 2021</div>
+              </div>
+            </div>
+            <div class="row mb-3 px-3">
+              <img src="~/assets/images/img_2.jpg" class="custom-image-news" />
+              <div class="col">
+                <a
+                  href=""
+                  style="text-decoration: none"
+                  @click.prevent="$router.push('/news/1')"
+                >
+                  <h6 class="text-dark">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut. 2
                   </h6>
                 </a>
                 <div class="text-muted mb-2">19 September 2021</div>
@@ -262,7 +294,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-12 mb-5">
-            <h6 class="text-warning mb-2">Sport</h6>
+            <h5 class="text-primary mb-3">Sport</h5>
             <div class="row mb-3 px-3">
               <img src="~/assets/images/img_1.jpg" class="custom-image-news" />
               <div class="col">
@@ -322,6 +354,22 @@
                   <h6 class="text-dark">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut. 1
+                  </h6>
+                </a>
+                <div class="text-muted mb-2">19 September 2021</div>
+              </div>
+            </div>
+            <div class="row mb-3 px-3">
+              <img src="~/assets/images/img_2.jpg" class="custom-image-news" />
+              <div class="col">
+                <a
+                  href=""
+                  style="text-decoration: none"
+                  @click.prevent="$router.push('/news/1')"
+                >
+                  <h6 class="text-dark">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut. 2
                   </h6>
                 </a>
                 <div class="text-muted mb-2">19 September 2021</div>
@@ -337,7 +385,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-12 mb-5">
-            <h6 class="text-warning mb-2">Art & Science</h6>
+            <h5 class="text-primary mb-3">Art & Science</h5>
             <div class="row mb-3 px-3">
               <img src="~/assets/images/img_1.jpg" class="custom-image-news" />
               <div class="col">
@@ -397,6 +445,22 @@
                   <h6 class="text-dark">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut. 1
+                  </h6>
+                </a>
+                <div class="text-muted mb-2">19 September 2021</div>
+              </div>
+            </div>
+            <div class="row mb-3 px-3">
+              <img src="~/assets/images/img_2.jpg" class="custom-image-news" />
+              <div class="col">
+                <a
+                  href=""
+                  style="text-decoration: none"
+                  @click.prevent="$router.push('/news/1')"
+                >
+                  <h6 class="text-dark">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut. 2
                   </h6>
                 </a>
                 <div class="text-muted mb-2">19 September 2021</div>

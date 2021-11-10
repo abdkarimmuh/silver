@@ -48,30 +48,12 @@
         <div class="text-muted mb-2">19 September 2021</div>
       </div>
     </div>
-
-    <div class="border-bottom mt-5 mb-3">
-      <h6 class="text-primary">Kategori</h6>
-    </div>
-    <ul class="px-3">
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 1</a>
-      </li>
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 2</a>
-      </li>
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 3</a>
-      </li>
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 4</a>
-      </li>
-    </ul>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'SideContentBlogComponents',
+  name: 'SideContentNewsComponents',
 }
 </script>
 
