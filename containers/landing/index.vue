@@ -23,7 +23,6 @@
 </template>
 
 <script>
-import { mask } from 'vue-the-mask'
 import AboutSection from './about.vue'
 import DivisionSection from './division.vue'
 import EventSection from './event.vue'
@@ -35,7 +34,6 @@ import ContactSection from './contact.vue'
 
 export default {
   name: 'LandingContainers',
-  directives: { mask },
   components: {
     AboutSection,
     DivisionSection,

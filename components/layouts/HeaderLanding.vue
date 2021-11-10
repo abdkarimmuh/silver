@@ -1,8 +1,5 @@
 <template>
-  <header
-    id="home"
-    class="miri-ui-kit-header header-navbar-full landing-header header-bg-2"
-  >
+  <header id="home" class="miri-ui-kit-header header-navbar-full">
     <nav
       class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-on-scroll"
     >
@@ -71,13 +68,25 @@
     <div class="container">
       <div class="header-social pb-5">
         <h6 class="text-white">Ikuti Sosial Media Kami</h6>
-        <a class="header-social-icon icon-fb pr-2" href="#">
+        <a
+          class="header-social-icon icon-fb pr-2"
+          href=""
+          @click.prevent="clickSosmed(facebook)"
+        >
           <i class="mdi mdi-facebook-box"></i>
         </a>
-        <a class="header-social-icon icon-twitter pr-2" href="#">
+        <a
+          class="header-social-icon icon-twitter pr-2"
+          href=""
+          @click.prevent="clickSosmed(twitter)"
+        >
           <i class="mdi mdi-twitter-box"></i>
         </a>
-        <a class="header-social-icon icon-insta pr-2" href="#">
+        <a
+          class="header-social-icon icon-insta pr-2"
+          href=""
+          @click.prevent="clickSosmed(instagram)"
+        >
           <i class="mdi mdi-instagram"></i>
         </a>
       </div>
@@ -88,6 +97,22 @@
 <script>
 export default {
   name: 'HeaderLandingLayoutComponents',
+  computed: {
+    facebook() {
+      return this.$store.getters['landing/getContact'].facebook
+    },
+    twitter() {
+      return this.$store.getters['landing/getContact'].twitter
+    },
+    instagram() {
+      return this.$store.getters['landing/getContact'].instagram
+    },
+  },
+  methods: {
+    clickSosmed(url) {
+      window.open(url)
+    },
+  },
 }
 </script>
 

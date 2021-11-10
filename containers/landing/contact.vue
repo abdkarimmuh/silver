@@ -73,8 +73,12 @@
 </template>
 
 <script>
+import { mask } from 'vue-the-mask'
+
 export default {
   name: 'ContanctLandingContainers',
+  directives: { mask },
+
   data() {
     return {
       name: '',

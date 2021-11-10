@@ -7833,7 +7833,7 @@ footer {
 .miri-ui-kit-header {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/header-bg-1.jpg);
+  background-image: url(../images/header-bg.jpg);
   height: 576px;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -7847,8 +7847,6 @@ footer {
     height: auto; }
   .miri-ui-kit-header.header-no-bg-img {
     background-image: none; }
-  .miri-ui-kit-header.header-bg-2 {
-    background-image: url(../images/header-bg-2.jpg); }
 
 .lightbox {
   background-color: rgba(0, 0, 0, 0.8);

@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <header-layout />
+    <header-layout v-if="!isLoading" />
     <nuxt />
-    <footer-layout />
+    <footer-layout v-if="!isLoading" />
   </div>
 </template>
 
@@ -13,6 +13,11 @@ import FooterLayout from '~/components/layouts/Footer'
 export default {
   name: 'LandingLayout',
   components: { HeaderLayout, FooterLayout },
+  computed: {
+    isLoading() {
+      return this.$store.getters['ui/getIsLoading']
+    },
+  },
 }
 </script>
 

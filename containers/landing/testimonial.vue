@@ -14,90 +14,49 @@
               data-ride="carousel"
             >
               <div class="carousel-inner px-5">
-                <div class="carousel-item active">
+                <div
+                  v-for="(item, index) in testimonial"
+                  :key="index"
+                  :class="['carousel-item', index === 0 ? 'active' : '']"
+                >
                   <div class="card border-0">
                     <div class="card-body text-center">
                       <figure class="d-inline-block">
                         <img
-                          src="~/assets/images/img_1.jpg"
-                          class="rounded-circle"
+                          :src="item.photoUrl"
+                          class="rounded-circle custom-image-testimonial"
                         />
                       </figure>
-                      <h5 class="card-title mb-0">Afonso Pinto</h5>
+                      <h5 class="card-title mb-0">{{ item.name }}</h5>
                       <p class="font-weight-medium designation">
-                        Founded & Chairman
+                        {{ item.title }}
                       </p>
                       <p class="font-italic">
-                        Achieve virtually any design and layout from with in the
+                        {{ item.testimonial }}
                       </p>
                       <p class="social-links">
-                        <a href="#" class="icon-fb">
+                        <a
+                          v-if="item.facebook"
+                          href=""
+                          class="icon-fb"
+                          @click.prevent="window.open(item.facebook)"
+                        >
                           <i class="mdi mdi-facebook-box"></i>
                         </a>
-                        <a href="#" class="icon-twitter">
+                        <a
+                          v-if="item.twitter"
+                          href=""
+                          class="icon-twitter"
+                          @click.prevent="window.open(item.twitter)"
+                        >
                           <i class="mdi mdi-twitter-box"></i>
                         </a>
-                        <a href="#" class="icon-insta">
-                          <i class="mdi mdi-instagram"></i>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card border-0">
-                    <div class="card-body text-center">
-                      <figure class="d-inline-block">
-                        <img
-                          src="~/assets/images/img_2.jpg"
-                          class="rounded-circle"
-                        />
-                      </figure>
-                      <h5 class="card-title mb-0">Irene Sotelo</h5>
-                      <p class="font-weight-medium designation">
-                        Frontend Developer
-                      </p>
-                      <p class="font-italic">
-                        Achieve virtually any design and layout from with in the
-                      </p>
-                      <p class="social-links">
-                        <a href="#" class="icon-fb">
-                          <i class="mdi mdi-facebook-box"></i>
-                        </a>
-                        <a href="#" class="icon-twitter">
-                          <i class="mdi mdi-twitter-box"></i>
-                        </a>
-                        <a href="#" class="icon-insta">
-                          <i class="mdi mdi-instagram"></i>
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="card border-0">
-                    <div class="card-body text-center">
-                      <figure class="d-inline-block">
-                        <img
-                          src="~/assets/images/img_3.jpg"
-                          class="rounded-circle"
-                        />
-                      </figure>
-                      <h5 class="card-title mb-0">Marmara Perera</h5>
-                      <p class="font-weight-medium designation">
-                        Designer & Creative Director
-                      </p>
-                      <p class="font-italic">
-                        Achieve virtually any design and layout from with in the
-                      </p>
-                      <p class="social-links">
-                        <a href="#" class="icon-fb">
-                          <i class="mdi mdi-facebook-box"></i>
-                        </a>
-                        <a href="#" class="icon-twitter">
-                          <i class="mdi mdi-twitter-box"></i>
-                        </a>
-                        <a href="#" class="icon-insta">
+                        <a
+                          v-if="item.instagram"
+                          href=""
+                          class="icon-insta"
+                          @click.prevent="window.open(item.instagram)"
+                        >
                           <i class="mdi mdi-instagram"></i>
                         </a>
                       </p>
@@ -134,6 +93,11 @@
 <script>
 export default {
   name: 'TestimonialLandingContainers',
+  computed: {
+    testimonial() {
+      return this.$store.getters['landing/getTestimonial']
+    },
+  },
 }
 </script>
 
@@ -141,5 +105,10 @@ export default {
 .social-links {
   font-size: 24px;
   margin-right: 6px;
+}
+.custom-image-testimonial {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
 }
 </style>

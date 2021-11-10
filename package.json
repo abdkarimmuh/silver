@@ -11,7 +11,8 @@
     "lint": "npm run lint:js",
     "sass-static": "node-sass -w static/scss -o static/css",
     "sass-assets": "node-sass -w assets/scss -o assets/css",
-    "sass": "npm run sass-static & npm run sass-assets"
+    "sass": "npm run sass-static & npm run sass-assets",
+    "dev-ip": "nuxt --hostname 192.168.0.14 --port 8000"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",

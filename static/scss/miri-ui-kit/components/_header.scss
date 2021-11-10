@@ -1,7 +1,7 @@
 .miri-ui-kit-header{
     display: flex;
     flex-direction: column;
-    background-image: url(../images/header-bg-1.jpg);
+    background-image: url(../images/header-bg.jpg);
     height: 576px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,10 +22,6 @@
 
     &.header-no-bg-img {
         background-image: none;
-    }
-
-    &.header-bg-2 {
-        background-image: url(../images/header-bg-2.jpg);
     }
 
 }

@@ -52,23 +52,35 @@
           </div>
           <div class="col-md-3">
             <p class="footer-social-links">
-              <a href="#" class="icon-fb">
+              <a href="" class="icon-fb" @click.prevent="clickSosmed(facebook)">
                 <i class="mdi mdi-facebook-box"> </i>
               </a>
-              <a href="#" class="icon-twitter">
+              <a
+                href=""
+                class="icon-twitter"
+                @click.prevent="clickSosmed(twitter)"
+              >
                 <i class="mdi mdi-twitter-box"> </i>
               </a>
-              <a href="#" class="icon-insta">
+              <a
+                href=""
+                class="icon-insta"
+                @click.prevent="clickSosmed(instagram)"
+              >
                 <i class="mdi mdi-instagram"> </i>
               </a>
             </p>
             <div class="mb-2">
               Telepon&nbsp;:
-              <span class="font-weight-bold">0812 3456 7890</span>
+              <span class="font-weight-bold">{{ phone }}</span>
             </div>
             <div class="mb-2">
               Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:
-              <span class="font-weight-bold">silvercimanggis@gmail.com</span>
+              <span class="font-weight-bold">{{ email }}</span>
+            </div>
+            <div v-if="address" class="mb-2">
+              Kesekretariatan<br />
+              <span class="font-weight-bold">{{ address }}</span>
             </div>
           </div>
         </div>
@@ -102,6 +114,31 @@
 <script>
 export default {
   name: 'FooterLayoutComponents',
+  computed: {
+    facebook() {
+      return this.$store.getters['landing/getContact'].facebook
+    },
+    twitter() {
+      return this.$store.getters['landing/getContact'].twitter
+    },
+    instagram() {
+      return this.$store.getters['landing/getContact'].instagram
+    },
+    phone() {
+      return this.$store.getters['landing/getContact'].phone
+    },
+    email() {
+      return this.$store.getters['landing/getContact'].email
+    },
+    address() {
+      return this.$store.getters['landing/getContact'].address
+    },
+  },
+  methods: {
+    clickSosmed(url) {
+      window.open(url)
+    },
+  },
 }
 </script>
 
