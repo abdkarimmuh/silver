@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-on-scroll">
+  <header class="miri-ui-kit-header header-navbar-only header-no-bg-img">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-on-scroll">
       <div class="container">
         <a class="navbar-brand" @click="$router.push('/')">
           <img src="~/assets/images/logo-dark.svg" />
@@ -20,19 +20,42 @@
         <div id="miriUiKitNavbar" class="collapse navbar-collapse">
           <div class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" @click="$router.push('/')">Beranda</a>
+              <a class="nav-link" href="/">Beranda</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                href="/about"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                @click="$router.push('/about')"
+              >
+                Tentang
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a href="/about/tentang-silver" class="dropdown-item">
+                  <i class="dropdown-item-icon mdi mdi-shape-outline"></i>
+                  Tentang Silver
+                </a>
+                <a href="/about/komunitas" class="dropdown-item">
+                  <i class="dropdown-item-icon mdi mdi-lock-outline"></i>
+                  Komunitas
+                </a>
+                <a href="/about/pengurus" class="dropdown-item">
+                  <i
+                    class="dropdown-item-icon mdi mdi-shield-account-outline"
+                  ></i>
+                  Pengurus Silver
+                </a>
+              </div>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" @click="$router.push('/about')">Tentang</a>
+              <a class="nav-link" href="/news"> Berita </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" @click="$router.push('/news')">Berita</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" @click="$router.push('/blog')">Blog</a>
+              <a class="nav-link" href="/blog"> Blog </a>
             </li>
 
             <button

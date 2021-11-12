@@ -25,8 +25,31 @@
               <a class="nav-link" href="#home">Beranda</a>
             </li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Tentang</a>
+            <li class="nav-item dropdown">
+              <a
+                href="#about"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                @click="$router.push('#about')"
+              >
+                Tentang
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a href="/about/tentang-silver" class="dropdown-item">
+                  <i class="dropdown-item-icon mdi mdi-shape-outline"></i>
+                  Tentang Silver
+                </a>
+                <a href="/about/komunitas" class="dropdown-item">
+                  <i class="dropdown-item-icon mdi mdi-lock-outline"></i>
+                  Komunitas
+                </a>
+                <a href="/about/pengurus" class="dropdown-item">
+                  <i
+                    class="dropdown-item-icon mdi mdi-shield-account-outline"
+                  ></i>
+                  Pengurus Silver
+                </a>
+              </div>
             </li>
 
             <li class="nav-item">

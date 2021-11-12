@@ -24,7 +24,7 @@ export const firstLetterUpperCase = (value) => {
 
 export const firstWordUppercase = (value) => {
   if (!value) return value
-  const words = value.split(/[\s_]+/)
+  const words = value.split(/[\s_-]+/)
   return words
     .map((word) => word[0].toUpperCase() + word.substring(1))
     .join(' ')
