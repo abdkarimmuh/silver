@@ -20,7 +20,6 @@ import SidebarComponent from '~/containers/news/components/SidebarList.vue'
 export default {
   name: 'MasjidCommunityNewsPages',
   components: { ListNewsScreen, SidebarComponent },
-  layout: 'default',
 }
 </script>
 

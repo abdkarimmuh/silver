@@ -9,7 +9,7 @@ import PengurusAboutScreen from '~/containers/about/Pengurus.vue'
 export default {
   name: 'PengurusAboutPages',
   components: { PengurusAboutScreen },
-  layout: 'default',
+  layout: 'about',
 }
 </script>
 

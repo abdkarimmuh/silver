@@ -9,7 +9,7 @@ import AboutScreen from '~/containers/about'
 export default {
   name: 'AboutPages',
   components: { AboutScreen },
-  layout: 'default',
+  layout: 'about',
 }
 </script>
 

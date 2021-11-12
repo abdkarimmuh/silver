@@ -19,7 +19,6 @@ import SidebarComponent from '~/containers/news/components/Sidebar.vue'
 export default {
   name: 'DetailNewsPages',
   components: { NewsDetailScreen, SidebarComponent },
-  layout: 'default',
 }
 </script>
 

@@ -172,3 +172,8 @@ body {
     color: #bbbbbb;
     font-size: 12px;
     margin-bottom: 0px; }
+
+.management-picture {
+  width: 100%;
+  height: 240px;
+  object-fit: cover; }

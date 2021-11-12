@@ -20,7 +20,6 @@ import SidebarComponent from '~/containers/blog/components/Sidebar.vue'
 export default {
   name: 'BlogCategoryPages',
   components: { BlogScreen, SidebarComponent },
-  layout: 'default',
 }
 </script>
 

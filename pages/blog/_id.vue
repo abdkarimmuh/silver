@@ -19,7 +19,6 @@ import SidebarComponent from '~/containers/blog/components/Sidebar.vue'
 export default {
   name: 'DetailBlogPages',
   components: { BlogDetailScreen, SidebarComponent },
-  layout: 'default',
 }
 </script>
 

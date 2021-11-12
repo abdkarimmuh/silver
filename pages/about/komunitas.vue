@@ -9,7 +9,7 @@ import KomunitasAboutScreen from '~/containers/about/Komunitas.vue'
 export default {
   name: 'KomunitasAboutPages',
   components: { KomunitasAboutScreen },
-  layout: 'default',
+  layout: 'about',
 }
 </script>
 

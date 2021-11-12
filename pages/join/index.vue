@@ -9,7 +9,6 @@ import FormJoinScreen from '~/containers/join'
 export default {
   name: 'FormJoinPages',
   components: { FormJoinScreen },
-  layout: 'default',
 }
 </script>
 

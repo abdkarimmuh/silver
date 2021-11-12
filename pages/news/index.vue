@@ -9,7 +9,6 @@ import NewsScreen from '~/containers/news'
 export default {
   name: 'NewsPages',
   components: { NewsScreen },
-  layout: 'default',
 }
 </script>
 

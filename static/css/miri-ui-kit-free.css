@@ -7834,7 +7834,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-image: url(../images/header-bg.jpg);
-  height: 576px;
+  height: 320px;
   background-size: cover;
   background-repeat: no-repeat; }
   .miri-ui-kit-header .miri-ui-kit-header-content {

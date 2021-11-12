@@ -25,15 +25,14 @@
 
             <li class="nav-item dropdown">
               <a
-                href="/about"
+                href=""
                 class="nav-link dropdown-toggle"
                 data-toggle="dropdown"
-                @click="$router.push('/about')"
               >
                 Tentang
               </a>
               <div class="dropdown-menu dropdown-menu-right">
-                <a href="/about/tentang-silver" class="dropdown-item">
+                <a href="/about" class="dropdown-item">
                   <i class="dropdown-item-icon mdi mdi-shape-outline"></i>
                   Tentang Silver
                 </a>
