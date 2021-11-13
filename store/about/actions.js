@@ -17,10 +17,11 @@ export const getAbout = async ({ commit }) => {
   }
 }
 
-export const getCommunity = async ({ commit }) => {
+export const getCommunity = async ({ commit, dispatch }) => {
   try {
     const res = await Services.getCommunity()
     commit('setCommunity', res)
+    dispatch('landing/setFooterCommunity', res, { root: true })
     return res
   } catch (error) {
     console.error('[ABOUT]', '[getCommunity]', '[ERROR]', error)

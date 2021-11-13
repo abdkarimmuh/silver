@@ -14,39 +14,32 @@
             <div class="font-weight-bold mb-2">Tentang</div>
             <ul class="px-3">
               <li>
-                <a href="#" class="url-text">Tentang Silver</a>
+                <a href="/about" class="url-text">Tentang Silver</a>
               </li>
               <li>
-                <a href="#" class="url-text">Sejarah</a>
+                <a href="/about/komunitas" class="url-text">Komunitas</a>
               </li>
               <li>
-                <a href="#" class="url-text">Pengurus</a>
+                <a href="/about/pengurus" class="url-text">Pengurus</a>
               </li>
             </ul>
             <div class="font-weight-bold mb-2">Publikasi</div>
             <ul class="px-3">
               <li>
-                <a href="#" class="url-text">Berita</a>
+                <a href="/news" class="url-text">Berita</a>
               </li>
               <li>
-                <a href="#" class="url-text">Blog</a>
+                <a href="/blog" class="url-text">Blog</a>
               </li>
             </ul>
           </div>
           <div class="col-md-2">
             <div class="font-weight-bold mb-2">Komunitas</div>
             <ul class="px-3">
-              <li>
-                <a href="#" class="url-text">Studio</a>
-              </li>
-              <li>
-                <a href="#" class="url-text">Masjid Community</a>
-              </li>
-              <li>
-                <a href="#" class="url-text">Art & Science</a>
-              </li>
-              <li>
-                <a href="#" class="url-text">Sport</a>
+              <li v-for="(item, index) in community" :key="index">
+                <a :href="`/about/komunitas/${item.slug}`" class="url-text">
+                  {{ item.name }}
+                </a>
               </li>
             </ul>
           </div>
@@ -132,6 +125,9 @@ export default {
     },
     address() {
       return this.$store.getters['landing/getContact'].address
+    },
+    community() {
+      return this.$store.getters['landing/getFooterCommunity']
     },
   },
   methods: {

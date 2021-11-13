@@ -1,7 +1,7 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-md-6 d-flex flex-column justify-content-center">
           <h6 class="text-warning mb-2">Tentang Silver</h6>
           <h2 class="h1 font-weight-semibold mb-4">Kenali kami lebih dekat.</h2>
@@ -16,12 +16,16 @@
         </div>
         <div class="col-md-1"></div>
         <youtube
+          v-if="videoId"
           nocookie
           class="col-md-5"
           :video-id="videoId"
           :player-vars="playerVars"
           @playing="playing"
         />
+        <div v-else class="col-md-5">
+          <img src="~/assets/images/logo.svg" class="logo-about" alt="logo" />
+        </div>
       </div>
     </div>
   </section>
@@ -45,17 +49,20 @@ export default {
       return this.$store.getters['landing/getAbout']
     },
     videoId() {
-      return getIdFromUrl(
-        'https://www.youtube.com/watch?v=8iuLXODzL04&ab_channel=Ayase%2FYOASOBI'
-      )
+      return getIdFromUrl(this.$store.getters['about/getYoutubeUrl'])
     },
   },
   methods: {
-    playing() {
-      console.debug('we are watching!!!')
-    },
+    playing() {},
   },
 }
 </script>
 
-<style></style>
+<style scoped>
+.logo-about {
+  padding: 24px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+</style>

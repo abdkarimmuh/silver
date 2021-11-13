@@ -5,7 +5,7 @@ export default ({ store }) => {
     key: 'silver-landing-page',
     reducer(state) {
       const stateFilter = { ...state }
-      const blackList = ['about', 'blog', 'news']
+      const blackList = ['blog', 'news']
 
       blackList.forEach((item) => {
         delete stateFilter[item]

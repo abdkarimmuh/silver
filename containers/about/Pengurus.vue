@@ -37,7 +37,7 @@
             />
             <div class="card-body px-0">
               <h5 class="card-title mb-0">Hafizuddin</h5>
-              <p class="font-weight-medium designation">Sekretaris Jenderak</p>
+              <p class="font-weight-medium designation">Sekretaris Jenderal</p>
               <p>Achieve virtually any design and layout from with in the</p>
               <p class="social-links">
                 <a href="#" class="icon-fb"

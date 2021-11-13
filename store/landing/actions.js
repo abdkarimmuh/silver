@@ -37,6 +37,14 @@ export const getAbout = async ({ dispatch }) => {
   await dispatch('about/getAbout', null, { root: true })
 }
 
+export const setFooterCommunity = ({ commit }, value) => {
+  const footer = value.map((x) => ({
+    name: x.communityName,
+    slug: x.communitySlug,
+  }))
+  commit('setFooterCommunity', footer)
+}
+
 export const getAllDataLanding = async ({ dispatch }) => {
   await dispatch('getContact')
   await dispatch('getTestimonial')

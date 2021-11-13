@@ -7598,7 +7598,11 @@ blockquote, .blockquote {
     max-width: 267px; } }
 
 .team-card .designation {
-  color: #0f64ff;
+  color: #E95225;
+  margin-bottom: 11px; }
+
+.team-card .designation-secondary {
+  color: #bbbbbb;
   margin-bottom: 11px; }
 
 .team-card .social-links a {
@@ -8213,7 +8217,7 @@ footer {
   .pagination.pagination-pill .page-item .page-link {
     border-radius: 34px; }
 
-.Profile-header {
+.profile-header {
   border-bottom: 1px solid #e7eaf3;
   padding-top: 47px;
   padding-bottom: 58px;

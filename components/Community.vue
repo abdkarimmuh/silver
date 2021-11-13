@@ -15,7 +15,7 @@
         <p>{{ desc }}</p>
         <button
           class="btn btn-soft-primary btn-sm"
-          @click.prevent="$router.push('/about/community/' + slug)"
+          @click.prevent="$router.push('/about/komunitas/' + slug)"
         >
           Selengkapnya
         </button>

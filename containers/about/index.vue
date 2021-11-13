@@ -77,7 +77,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut.
               </p>
-              <button class="btn btn-soft-primary btn-sm">Selengkapnya</button>
+              <button
+                class="btn btn-soft-primary btn-sm"
+                @click.prevent="$router.push('/about/komunitas/studio')"
+              >
+                Selengkapnya
+              </button>
             </div>
           </div>
         </div>
@@ -93,7 +98,14 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut.
               </p>
-              <button class="btn btn-soft-primary btn-sm">Selengkapnya</button>
+              <button
+                class="btn btn-soft-primary btn-sm"
+                @click.prevent="
+                  $router.push('/about/komunitas/masjid_community')
+                "
+              >
+                Selengkapnya
+              </button>
             </div>
           </div>
         </div>
@@ -110,7 +122,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut.
               </p>
-              <button class="btn btn-soft-primary btn-sm">Selengkapnya</button>
+              <button
+                class="btn btn-soft-primary btn-sm"
+                @click.prevent="$router.push('/about/komunitas/sport')"
+              >
+                Selengkapnya
+              </button>
             </div>
           </div>
         </div>
@@ -126,7 +143,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut.
               </p>
-              <button class="btn btn-soft-primary btn-sm">Selengkapnya</button>
+              <button
+                class="btn btn-soft-primary btn-sm"
+                @click.prevent="$router.push('/about/komunitas/art_science')"
+              >
+                Selengkapnya
+              </button>
             </div>
           </div>
         </div>

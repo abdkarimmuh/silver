@@ -1,9 +1,9 @@
 export const adapterAbout = (value) => {
   const response = {
     ...value,
-    youtubeUrl: value.youtube_url,
+    youtubeUrl: value.video_youtube,
   }
-  delete response.youtube_url
+  delete response.video_youtube
   return response
 }
 
@@ -12,6 +12,7 @@ export const adapterCommunity = (value) => {
     communityName: x.community_name,
     communityDesc: x.community_desc,
     communityImageUrl: x.community_image_url,
+    communitySlug: x.community_slug,
     communityManager: x.community_manager.map((y) => {
       const response = {
         ...y,

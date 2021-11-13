@@ -63,7 +63,11 @@
         max-width: 267px;   
     }
     .designation {
-        color: #0f64ff;
+        color: $primary;
+        margin-bottom: 11px;
+    }
+    .designation-secondary {
+        color: $text-muted;
         margin-bottom: 11px;
     }
 

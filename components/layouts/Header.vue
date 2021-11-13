@@ -2,7 +2,7 @@
   <header class="miri-ui-kit-header header-navbar-only header-no-bg-img">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-on-scroll">
       <div class="container">
-        <a class="navbar-brand" @click="$router.push('/')">
+        <a class="navbar-brand" href="/">
           <img src="~/assets/images/logo-dark.svg" />
         </a>
         <button

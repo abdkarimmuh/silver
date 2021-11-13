@@ -4,7 +4,7 @@
       class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-on-scroll"
     >
       <div class="container">
-        <a class="navbar-brand" @click="$router.push('/')">
+        <a class="navbar-brand" href="/">
           <img src="~/assets/images/logo-dark.svg" />
         </a>
         <button

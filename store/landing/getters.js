@@ -13,3 +13,4 @@ export const getCommunity = (state, getters, rootState) =>
 
 export const getContact = (state) => state.contact
 export const getTestimonial = (state) => state.testimonial
+export const getFooterCommunity = (state) => state.footerCommunity
