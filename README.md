@@ -19,6 +19,18 @@ $ npm run generate
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
+## Run Local API
+
+```bash
+# change permission
+$ chmod +X ./script/mock.sh
+
+# run script
+$ ./script/mock.sh
+```
+
+For detailed explanation on how things work, check out the [documentation](https://github.com/typicode/json-server).
+
 ## Special Directories
 
 You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
