@@ -3,9 +3,9 @@
     <div class="container">
       <h2 class="text-center">Partner</h2>
       <p class="text-center mb-4 pb-3">
-        If there is something we can help you with, just let us know. We'll
+        Beberapa komunitas, organisasi dan lembaga yang telah
         <br />
-        be more than happy to offer you our help.
+        berkolaborasi bersama kami
       </p>
       <div class="text-center">
         <figure class="d-inline-block mx-2">

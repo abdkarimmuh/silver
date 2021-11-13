@@ -5,10 +5,7 @@
         <div class="row justify-content-between">
           <div class="col-md-4">
             <img src="~/assets/images/logo.svg" class="custom-logo-footer" />
-            <p>
-              If there is something we can help you with, just let us know.
-              We'll be more than happy to offer you our help.
-            </p>
+            <p class="mt-3">{{ about }}</p>
           </div>
           <div class="col-md-2">
             <div class="font-weight-bold mb-2">Tentang</div>
@@ -108,6 +105,9 @@
 export default {
   name: 'FooterLayoutComponents',
   computed: {
+    about() {
+      return this.$store.getters['landing/getAbout']
+    },
     facebook() {
       return this.$store.getters['landing/getContact'].facebook
     },

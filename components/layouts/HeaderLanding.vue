@@ -97,7 +97,7 @@
     >
       <h1 class="display-3 text-white">Silver</h1>
       <p class="h3 font-weight-light text-white">
-        {{ description }}
+        Welcome to Islamic Creative Room
       </p>
       <p class="mt-3 mb-5">
         <button
@@ -138,16 +138,11 @@
 </template>
 
 <script>
-import TextConstant from '~/static/text'
-
 export default {
   name: 'HeaderLandingLayoutComponents',
   computed: {
     activeMenu() {
       return this.$store.getters['ui/getActiveMenu']
-    },
-    description() {
-      return TextConstant.descHeaderLanding
     },
     facebook() {
       return this.$store.getters['landing/getContact'].facebook

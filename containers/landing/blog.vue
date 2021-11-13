@@ -4,7 +4,7 @@
       <div class="row align-items-center mb-4">
         <div class="col-md-8">
           <h2>Blog</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <p>Bacalah karya tulis dari kami</p>
         </div>
         <div class="col-md-4 text-right-responsive">
           <button class="btn btn-sm btn-primary" @click="$router.push('/blog')">

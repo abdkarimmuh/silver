@@ -3,9 +3,9 @@
     <div class="container">
       <h2 class="text-center">Hubungi Kami</h2>
       <p class="text-center mb-4 pb-3">
-        If there is something we can help you with, just let us know. We'll
+        Jika ada sesuatu yang dapat kami bantu, beri tahu kami.
         <br />
-        be more than happy to offer you our help.
+        Kami akan dengan senang hati menawarkan bantuan kami kepada Anda.
       </p>
       <div class="row justify-content-center">
         <div class="col-md-8">

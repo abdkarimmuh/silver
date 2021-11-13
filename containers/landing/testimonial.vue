@@ -2,9 +2,7 @@
   <section class="miri-ui-kit-section pb-0">
     <div class="container">
       <h2 class="text-center">Testimoni</h2>
-      <p class="mb-4 text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </p>
+      <p class="mb-4 text-center">Apa kata mereka tentang kami</p>
       <div class="row justify-content-center">
         <div class="col-md-6">
           <div class="bd-example px-3">

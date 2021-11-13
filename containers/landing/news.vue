@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="mb-4 text-center">Berita</h2>
       <p class="mb-4 pb-3 text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Kegiatan yang telah dan akan kami lakukan
       </p>
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-5">
