@@ -1,17 +1,19 @@
-const contact = {
-  instagram: 'https://instagram.com',
-  twitter: 'https://twitter.com',
-  facebook: 'https://facebook.com',
-  email: 'mail@mail.com',
-  phone: '0812 3456 7890',
-  address: '',
-}
+import axios from 'axios'
+import { adapterContact } from './adapter'
+
+const SERVICES = axios.create({
+  baseURL: process.env.mockUrl,
+})
 
 export default {
-  getContact: () =>
-    new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(contact)
-      }, 500)
-    }),
+  getContact: async () => {
+    try {
+      const response = await SERVICES.get('/contact')
+      console.debug('[RESPONSE]', '[getContact]', response)
+      return adapterContact(response.data)
+    } catch (error) {
+      console.error('ERROR', ['getContact', error])
+      throw error
+    }
+  },
 }

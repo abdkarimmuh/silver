@@ -5,43 +5,14 @@ const Services = process.env.useMock
 export const getAbout = async ({ commit }) => {
   try {
     const res = await Services.getAbout()
-    commit('setAbout', res)
+    commit('setAbout', res.about)
+    commit('setHistory', res.history)
+    commit('setMission', res.mission)
+    commit('setVission', res.vission)
+    commit('setYoutubeUrl', res.youtubeUrl)
     return res
   } catch (error) {
     console.error('[ABOUT]', '[getAbout]', '[ERROR]', error)
-    throw error
-  }
-}
-
-export const getHistory = async ({ commit }) => {
-  try {
-    const res = await Services.getHistory()
-    commit('setHistory', res)
-    return res
-  } catch (error) {
-    console.error('[ABOUT]', '[getHistory]', '[ERROR]', error)
-    throw error
-  }
-}
-
-export const getVission = async ({ commit }) => {
-  try {
-    const res = await Services.getVission()
-    commit('setVission', res)
-    return res
-  } catch (error) {
-    console.error('[ABOUT]', '[getVission]', '[ERROR]', error)
-    throw error
-  }
-}
-
-export const getMission = async ({ commit }) => {
-  try {
-    const res = await Services.getMission()
-    commit('setMission', res)
-    return res
-  } catch (error) {
-    console.error('[ABOUT]', '[getMission]', '[ERROR]', error)
     throw error
   }
 }
@@ -53,6 +24,17 @@ export const getCommunity = async ({ commit }) => {
     return res
   } catch (error) {
     console.error('[ABOUT]', '[getCommunity]', '[ERROR]', error)
+    throw error
+  }
+}
+
+export const getOrganizer = async ({ commit }) => {
+  try {
+    const res = await Services.getOrganizer()
+    commit('setOrganizer', res)
+    return res
+  } catch (error) {
+    console.error('[ABOUT]', '[getOrganizer]', '[ERROR]', error)
     throw error
   }
 }

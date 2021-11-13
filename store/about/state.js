@@ -4,6 +4,8 @@ export default function () {
     history: '',
     vission: '',
     mission: '',
+    youtubeUrl: '',
     community: [],
+    organizer: [],
   }
 }

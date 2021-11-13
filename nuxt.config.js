@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: process.env.APP_NAME,
+    title: 'Silver',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -62,7 +62,8 @@ export default {
   build: {},
 
   env: {
-    baseURL: process.env.BASE_URL,
+    baseUrl: process.env.BASE_URL,
+    mockUrl: 'http://localhost:4000',
     useMock: true,
   },
 }

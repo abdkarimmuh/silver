@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     playing() {
-      console.log('we are watching!!!')
+      console.debug('we are watching!!!')
     },
   },
 }

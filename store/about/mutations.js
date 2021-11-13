@@ -17,3 +17,11 @@ export const setMission = (state, value) => {
 export const setCommunity = (state, value) => {
   state.community = value
 }
+
+export const setYoutubeUrl = (state, value) => {
+  state.youtubeUrl = value
+}
+
+export const setOrganizer = (state, value) => {
+  state.organizer = value
+}

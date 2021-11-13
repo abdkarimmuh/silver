@@ -1,40 +1,19 @@
-const testimonial = [
-  {
-    name: 'Winda Basudara',
-    title: 'Brand Ambasador RRQ',
-    photoUrl:
-      'https://yt3.ggpht.com/xEYn5khZSsMHR9Qp5039LC5u1jQt7SeH-eg_3dicKWeVZ0RPMVxVqOOgniRCKhiZnI0vdQkc1Dc=s900-c-k-c0x00ffffff-no-rj',
-    facebook: 'https://facebook.com',
-    twitter: 'https://twitter.com',
-    instagram: 'https://instagram.com',
-    testimonial: 'RRQ Jaya Jaya Jaya',
-  },
-  {
-    name: 'Haruna Kawaguchi',
-    title: 'Actor',
-    photoUrl: 'https://asianwiki.com/images/4/43/One_Week_Friends-002.jpg',
-    facebook: 'https://facebook.com',
-    twitter: 'https://twitter.com',
-    instagram: 'https://instagram.com',
-    testimonial:
-      'Cantiknya gaada lawan, Cantik banget, Damage nya ga abis abis',
-  },
-  {
-    name: 'Kento Yamazaki',
-    title: 'Actor',
-    photoUrl: 'https://i.mydramalist.com/dN0b0_5f.jpg',
-    facebook: 'https://facebook.com',
-    twitter: 'https://twitter.com',
-    instagram: 'https://instagram.com',
-    testimonial: 'Cowo beruntung, kalau main film lawan cewe nya cantik semua',
-  },
-]
+import axios from 'axios'
+import { adapterTestimonial } from './adapter'
+
+const SERVICES = axios.create({
+  baseURL: process.env.mockUrl,
+})
 
 export default {
-  getTestimonial: () =>
-    new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(testimonial)
-      }, 500)
-    }),
+  getTestimonial: async () => {
+    try {
+      const response = await SERVICES.get('/testimonial')
+      console.debug('[RESPONSE]', '[getTestimonial]', response)
+      return adapterTestimonial(response.data)
+    } catch (error) {
+      console.error('ERROR', ['getTestimonial', error])
+      throw error
+    }
+  },
 }
