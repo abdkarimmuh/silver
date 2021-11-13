@@ -7610,11 +7610,11 @@ blockquote, .blockquote {
   font-size: 1rem;
   margin-right: 6px; }
   .team-card .social-links a.icon-fb:hover {
-    color: #E95225; }
+    color: #007bff; }
   .team-card .social-links a.icon-twitter:hover {
     color: #2dd2f6; }
   .team-card .social-links a.icon-insta:hover {
-    color: #f12459; }
+    color: #252631; }
 
 .experience-card {
   display: flex;
@@ -7705,11 +7705,11 @@ footer {
     .footer-social-links a:hover {
       color: #000000; }
     .footer-social-links a.icon-fb:hover {
-      color: #E95225; }
+      color: #007bff; }
     .footer-social-links a.icon-twitter:hover {
       color: #2dd2f6; }
     .footer-social-links a.icon-insta:hover {
-      color: #f12459; }
+      color: #252631; }
     .footer-social-links a.icon-behance:hover {
       color: #E95225; }
     .footer-social-links a.icon-dribbble:hover {

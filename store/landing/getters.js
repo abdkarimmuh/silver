@@ -1,7 +1,7 @@
 import utils from '~/utils'
 
 export const getAbout = (state, getters, rootState) =>
-  utils.cutString(rootState.about.about) + ' ...'
+  utils.cutString(rootState.about.about, 150) + ' ...'
 
 export const getCommunity = (state, getters, rootState) =>
   rootState.about.community.map((x) => ({

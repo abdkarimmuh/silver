@@ -1,8 +1,8 @@
 <template>
   <section class="miri-ui-kit-section">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6 d-flex flex-column justify-content-center">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md-5 d-flex flex-column justify-content-center">
           <h6 class="text-warning mb-2">Tentang Silver</h6>
           <h2 class="h1 font-weight-semibold mb-4">Kenali kami lebih dekat.</h2>
           <p class="mb-5">
@@ -14,15 +14,15 @@
             </button>
           </p>
         </div>
-        <div class="col-md-1"></div>
-        <youtube
-          v-if="videoId"
-          nocookie
-          class="col-md-5"
-          :video-id="videoId"
-          :player-vars="playerVars"
-          @playing="playing"
-        />
+        <div v-if="videoId" class="col-md-5">
+          <youtube
+            nocookie
+            fit-parent
+            :video-id="videoId"
+            :player-vars="playerVars"
+            @playing="playing"
+          />
+        </div>
         <div v-else class="col-md-5">
           <img src="~/assets/images/logo.svg" class="logo-about" alt="logo" />
         </div>
