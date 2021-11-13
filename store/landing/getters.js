@@ -5,10 +5,10 @@ export const getAbout = (state, getters, rootState) =>
 
 export const getCommunity = (state, getters, rootState) =>
   rootState.about.community.map((x) => ({
-    communityName: x.communityName,
-    communityDesc: utils.cutString(x.communityDesc, 100) + ' ...',
-    communityImageUrl: x.communityImageUrl,
-    communitySlug: x.communitySlug,
+    name: x.name,
+    desc: utils.cutString(x.desc, 100) + ' ...',
+    imageUrl: x.imageUrl,
+    slug: x.slug,
   }))
 
 export const getContact = (state) => state.contact

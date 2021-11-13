@@ -5,162 +5,31 @@
         <section class="profile-header text-center">
           <div>
             <img
-              src="~/assets/images/portfolio_1.jpg"
-              alt="profile"
+              :src="imageUrl"
+              :alt="slug"
               class="img-rounded image-community mb-4"
             />
           </div>
-          <h4>Silver Studio</h4>
-          <p class="profile-intro">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cum
-            totam exercitationem blanditiis ducimus sit tempora suscipit
-            voluptas porro natus. Facilis exercitationem earum eaque veritatis
-            voluptatibus atque modi pariatur quae.
-          </p>
+          <h4>{{ name }}</h4>
+          <p class="profile-intro">{{ desc }}</p>
         </section>
         <section class="profile-details mb-4 pb-4">
           <h5 class="mb-4">Pengurus</h5>
           <div class="row">
-            <div class="col-md-4">
-              <div class="team-card card border-0 raise-on-hover">
-                <img
-                  src="~/assets/images/team-2.jpg"
-                  alt="Team 2"
-                  class="card-img-top management-picture"
-                />
-                <div class="card-body px-0">
-                  <h5 class="card-title mb-0">Ahmad Zainuddin</h5>
-                  <p class="font-weight-medium designation">Pembina</p>
-                  <p>
-                    Achieve virtually any design and layout from with in the
-                  </p>
-                  <p class="social-links">
-                    <a href="#" class="icon-fb"
-                      ><i class="mdi mdi-facebook-box"></i
-                    ></a>
-                    <a href="#" class="icon-twitter"
-                      ><i class="mdi mdi-twitter-box"></i
-                    ></a>
-                    <a href="#" class="icon-insta"
-                      ><i class="mdi mdi-instagram"></i
-                    ></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-card card border-0 raise-on-hover">
-                <img
-                  src="~/assets/images/team-3.jpg"
-                  alt="Team 3"
-                  class="card-img-top management-picture"
-                />
-                <div class="card-body px-0">
-                  <h5 class="card-title mb-0">Satrio</h5>
-                  <p class="font-weight-medium designation">Ketua Divisi</p>
-                  <p>
-                    Achieve virtually any design and layout from with in the
-                  </p>
-                  <p class="social-links">
-                    <a href="#" class="icon-fb"
-                      ><i class="mdi mdi-facebook-box"></i
-                    ></a>
-                    <a href="#" class="icon-twitter"
-                      ><i class="mdi mdi-twitter-box"></i
-                    ></a>
-                    <a href="#" class="icon-insta"
-                      ><i class="mdi mdi-instagram"></i
-                    ></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-card card border-0 raise-on-hover">
-                <img
-                  src="~/assets/images/team-2.jpg"
-                  alt="Team 2"
-                  class="card-img-top management-picture"
-                />
-                <div class="card-body px-0">
-                  <h5 class="card-title mb-0">Ahmad Zainuddin</h5>
-                  <p class="font-weight-medium designation-secondary">
-                    Anggota
-                  </p>
-                  <p>
-                    Achieve virtually any design and layout from with in the
-                  </p>
-                  <p class="social-links">
-                    <a href="#" class="icon-fb"
-                      ><i class="mdi mdi-facebook-box"></i
-                    ></a>
-                    <a href="#" class="icon-twitter"
-                      ><i class="mdi mdi-twitter-box"></i
-                    ></a>
-                    <a href="#" class="icon-insta"
-                      ><i class="mdi mdi-instagram"></i
-                    ></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-card card border-0 raise-on-hover">
-                <img
-                  src="~/assets/images/team-3.jpg"
-                  alt="Team 3"
-                  class="card-img-top management-picture"
-                />
-                <div class="card-body px-0">
-                  <h5 class="card-title mb-0">Satrio</h5>
-                  <p class="font-weight-medium designation-secondary">
-                    Anggota
-                  </p>
-                  <p>
-                    Achieve virtually any design and layout from with in the
-                  </p>
-                  <p class="social-links">
-                    <a href="#" class="icon-fb"
-                      ><i class="mdi mdi-facebook-box"></i
-                    ></a>
-                    <a href="#" class="icon-twitter"
-                      ><i class="mdi mdi-twitter-box"></i
-                    ></a>
-                    <a href="#" class="icon-insta"
-                      ><i class="mdi mdi-instagram"></i
-                    ></a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="team-card card border-0 raise-on-hover">
-                <img
-                  src="~/assets/images/team-3.jpg"
-                  alt="Team 3"
-                  class="card-img-top management-picture"
-                />
-                <div class="card-body px-0">
-                  <h5 class="card-title mb-0">Satrio</h5>
-                  <p class="font-weight-medium designation-secondary">
-                    Anggota
-                  </p>
-                  <p>
-                    Achieve virtually any design and layout from with in the
-                  </p>
-                  <p class="social-links">
-                    <a href="#" class="icon-fb"
-                      ><i class="mdi mdi-facebook-box"></i
-                    ></a>
-                    <a href="#" class="icon-twitter"
-                      ><i class="mdi mdi-twitter-box"></i
-                    ></a>
-                    <a href="#" class="icon-insta"
-                      ><i class="mdi mdi-instagram"></i
-                    ></a>
-                  </p>
-                </div>
-              </div>
+            <div
+              v-for="(item, index) in organizer"
+              :key="index"
+              class="col-md-4"
+            >
+              <organizer-components
+                :name="item.name"
+                :position="item.position"
+                :motivation="item.motivation"
+                :image-url="item.imageUrl"
+                :facebook="item.facebook"
+                :twitter="item.twitter"
+                :instagram="item.instagram"
+              />
             </div>
           </div>
           <h5 class="mb-4 mt-5">Kegiatan</h5>
@@ -249,8 +118,31 @@
 </template>
 
 <script>
+import OrganizerComponents from '~/components/Organizer.vue'
+
 export default {
   name: 'DetailKomunitasAboutScreen',
+  components: { OrganizerComponents },
+  computed: {
+    community() {
+      return this.$store.getters['about/getCommunityDetail']
+    },
+    name() {
+      return this.community.name ? this.community.name : ''
+    },
+    desc() {
+      return this.community.desc ? this.community.desc : ''
+    },
+    imageUrl() {
+      return this.community.imageUrl ? this.community.imageUrl : ''
+    },
+    slug() {
+      return this.community.slug ? this.community.slug : ''
+    },
+    organizer() {
+      return this.community.organizer ? this.community.organizer : []
+    },
+  },
 }
 </script>
 

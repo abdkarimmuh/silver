@@ -5,7 +5,3 @@ export const showLoading = ({ commit }) => {
 export const hideLoading = ({ commit }) => {
   commit('updateLoading', false)
 }
-
-export const setActiveMenu = ({ commit }, activeMenu) => {
-  commit('setActiveMenu', activeMenu)
-}

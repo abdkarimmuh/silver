@@ -1,6 +1,7 @@
 export default function () {
   return {
     isLoading: false,
-    activeMenu: 'home',
+    activeMenu: '',
+    titleAbout: '',
   }
 }

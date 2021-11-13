@@ -1,36 +1,40 @@
+import utils from '~/utils'
+
 export const adapterAbout = (value) => {
-  const response = {
+  const val = {
     ...value,
     youtubeUrl: value.video_youtube,
   }
-  delete response.video_youtube
-  return response
+  delete val.video_youtube
+  return val
 }
 
 export const adapterCommunity = (value) => {
   return value.map((x) => ({
-    communityName: x.community_name,
-    communityDesc: x.community_desc,
-    communityImageUrl: x.community_image_url,
-    communitySlug: x.community_slug,
-    communityManager: x.community_manager.map((y) => {
-      const response = {
+    name: x.name,
+    desc: x.desc,
+    imageUrl: x.image_url,
+    slug: x.slug,
+    organizer: x.organizer.map((y) => {
+      const val = {
         ...y,
         imageUrl: y.image_url,
       }
-      delete response.image_url
-      return response
+      delete val.image_url
+      return val
     }),
   }))
 }
 
 export const adapterOrganizer = (value) => {
-  value.map((x) => {
-    const response = {
+  const res = value.map((x) => {
+    const val = {
       ...x,
       imageUrl: x.image_url,
     }
-    delete response.image_url
-    return response
+    delete val.image_url
+    return val
   })
+
+  return utils.groupBy(res, 'division')
 }

@@ -39,8 +39,8 @@ export const getAbout = async ({ dispatch }) => {
 
 export const setFooterCommunity = ({ commit }, value) => {
   const footer = value.map((x) => ({
-    name: x.communityName,
-    slug: x.communitySlug,
+    name: x.name,
+    slug: x.slug,
   }))
   commit('setFooterCommunity', footer)
 }

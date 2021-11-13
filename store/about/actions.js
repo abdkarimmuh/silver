@@ -29,6 +29,17 @@ export const getCommunity = async ({ commit, dispatch }) => {
   }
 }
 
+export const getCommunityDetail = async ({ commit }, param) => {
+  try {
+    const res = await Services.getCommunityDetail(param)
+    commit('setCommunityDetail', res)
+    return res
+  } catch (error) {
+    console.error('[ABOUT]', '[getCommunityDetail]', '[ERROR]', error)
+    throw error
+  }
+}
+
 export const getOrganizer = async ({ commit }) => {
   try {
     const res = await Services.getOrganizer()

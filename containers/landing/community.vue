@@ -8,10 +8,10 @@
           class="col-md-6"
         >
           <community-components
-            :title="item.communityName"
-            :desc="item.communityDesc"
-            :image-src="item.communityImageUrl"
-            :slug="item.communitySlug"
+            :title="item.name"
+            :desc="item.desc"
+            :image-src="item.imageUrl"
+            :slug="item.slug"
           />
         </div>
       </div>

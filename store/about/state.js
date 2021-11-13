@@ -6,6 +6,7 @@ export default function () {
     mission: '',
     youtubeUrl: '',
     community: [],
-    organizer: [],
+    communityDetail: {},
+    organizer: {},
   }
 }

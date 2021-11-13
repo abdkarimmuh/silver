@@ -18,6 +18,10 @@ export const setCommunity = (state, value) => {
   state.community = value
 }
 
+export const setCommunityDetail = (state, value) => {
+  state.communityDetail = value
+}
+
 export const setYoutubeUrl = (state, value) => {
   state.youtubeUrl = value
 }

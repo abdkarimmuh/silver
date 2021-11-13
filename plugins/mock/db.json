@@ -1,332 +1,368 @@
 {
-  "about":{
-     "about":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-     "history":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-     "mission":"1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\n2.1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam\n3.1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe. asdajsj asjdhas akjhsd",
-     "vission":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-     "video_youtube":"https://www.youtube.com/watch?v=8iuLXODzL04&ab_channel=Ayase%2FYOASOBI"
-  },
-  "contact":{
-     "instagram":"https://instagram.com",
-     "twitter":"https://twitter.com",
-     "facebook":"https://facebook.com",
-     "email":"mail@mail.com",
-     "phone":"0812 3456 7890",
-     "address":""
-  },
-  "community":[
-     {
-        "community_name":"Studio",
-        "community_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-        "community_image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "community_slug":"studio",
-        "community_manager":[
-           {
-              "name":"Jhon Doe",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Ketua Divisi",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 1",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 2",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 3",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 4",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           }
-        ]
-     },
-     {
-        "community_name":"Masjid Community",
-        "community_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-        "community_image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "community_slug":"masjid_community",
-        "community_manager":[
-           {
-              "name":"Jhon Doe",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Ketua Divisi",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 1",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 2",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 3",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 4",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           }
-        ]
-     },
-     {
-        "community_name":"Sport",
-        "community_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-        "community_image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "community_slug":"sport",
-        "community_manager":[
-           {
-              "name":"Jhon Doe",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Ketua Divisi",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 1",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 2",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 3",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 4",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           }
-        ]
-     },
-     {
-        "community_name":"Art & Science",
-        "community_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
-        "community_image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "community_slug":"art_science",
-        "community_manager":[
-           {
-              "name":"Jhon Doe",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Ketua Divisi",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 1",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 2",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 3",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           },
-           {
-              "name":"Jhon Doe 4",
-              "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-              "position":"Anggota",
-              "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-              "facebook":"https://facebook.com",
-              "twitter":"https://twitter.com",
-              "instagram":"https://instagram.com"
-           }
-        ]
-     }
-  ],
-  "organizer":[
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Ketua Umum",
-        "division":"BPH",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     },
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Sekertaris Jenderal",
-        "division":"BPH",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     },
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Bendahara & PSDM",
-        "division":"BPH",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     },
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Pembina",
-        "division":"BPH",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     },
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Ketua Divisi",
-        "division":"Studio",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     },
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Anggota",
-        "division":"Studio",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     },
-     {
-        "name":"Jhon Doe",
-        "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
-        "position":"Ketua Divisi",
-        "division":"Humas",
-        "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com"
-     }
-  ],
-  "testimonial":[
-     {
-        "name":"Winda Basudara",
-        "title":"Brand Ambasador RRQ",
-        "photo_url":"https://yt3.ggpht.com/xEYn5khZSsMHR9Qp5039LC5u1jQt7SeH-eg_3dicKWeVZ0RPMVxVqOOgniRCKhiZnI0vdQkc1Dc=s900-c-k-c0x00ffffff-no-rj",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com",
-        "testimonial":"RRQ Jaya Jaya Jaya"
-     },
-     {
-        "name":"Haruna Kawaguchi",
-        "title":"Actor",
-        "photo_url":"https://asianwiki.com/images/4/43/One_Week_Friends-002.jpg",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com",
-        "testimonial":"Cantiknya gaada lawan, Cantik banget, Damage nya ga abis abis"
-     },
-     {
-        "name":"Kento Yamazaki",
-        "title":"Actor",
-        "photo_url":"https://i.mydramalist.com/dN0b0_5f.jpg",
-        "facebook":"https://facebook.com",
-        "twitter":"https://twitter.com",
-        "instagram":"https://instagram.com",
-        "testimonial":"Cowo beruntung, kalau main film lawan cewe nya cantik semua"
-     }
-  ]
+   "about":{
+      "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "history":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n",
+      "mission":"1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\n2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam\n3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe. asdajsj asjdhas akjhsd",
+      "vission":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
+      "video_youtube":"https://www.youtube.com/watch?v=8iuLXODzL04&ab_channel=Ayase%2FYOASOBI"
+   },
+   "contact":{
+      "instagram":"https://instagram.com",
+      "twitter":"https://twitter.com",
+      "facebook":"https://facebook.com",
+      "email":"mail@mail.com",
+      "phone":"0812 3456 7890",
+      "address":""
+   },
+   "community":[
+      {
+         "name":"Studio",
+         "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "slug":"studio",
+         "organizer":[
+            {
+               "name":"Muhammad Ibrahim Rosyad",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Ketua Divisi",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Adhi Prayogi",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Pembina",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Muhammad Albyn Resyadin",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"M. Padli",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Raden Muhammad Ciptaning Hanif",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Ihsan Abdurrahim",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Fattah Muharrik Muhammad",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Muhammad Afif Rabbani",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            }
+         ]
+      },
+      {
+         "name":"Masjid Community",
+         "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "slug":"masjid_community",
+         "organizer":[
+            {
+               "name":"Ocfrianto Hutabarat",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Pembina",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Susy Ismaryani",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Pembina",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Rezza Harya Hanafiah",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Ketua Divisi",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Muhammad Abdurrahman Azzam",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Zakiyah Nur Sholihah",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            }
+         ]
+      },
+      {
+         "name":"Sport",
+         "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "slug":"sport",
+         "organizer":[
+            {
+               "name":"Suratno",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Pembina",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Muhammad Zaki Abdulloh",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Ketua Divisi",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Fiiki Ridho Rabbina",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Raihana Mahira",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            }
+         ]
+      },
+      {
+         "name":"Art & Science",
+         "desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.\nLorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus magni explicabo quis aliquam laborum molestiae sint voluptatum ea beatae sunt rerum! Saepe.",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "slug":"art_science",
+         "organizer":[
+            {
+               "name":"Ros Gestasia",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Pembina",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Muhammad Fatih Abdul Aziz",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Ketua Divisi",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Musyaffa Shidqi Imamuddin",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Abdullah Hafidz Ramadhan",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Fina Muthmainnah",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Muhammad Farras Ramadhan",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            },
+            {
+               "name":"Alya Zahrah Zhafirah ",
+               "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+               "position":"Anggota",
+               "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+               "facebook":"https://facebook.com",
+               "twitter":"https://twitter.com",
+               "instagram":"https://instagram.com"
+            }
+         ]
+      }
+   ],
+   "organizer":[
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Ketua Umum",
+         "division":"BPH",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      },
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Sekertaris Jenderal",
+         "division":"BPH",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      },
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Bendahara & PSDM",
+         "division":"BPH",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      },
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Pembina",
+         "division":"BPH",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      },
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Ketua Divisi",
+         "division":"Studio",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      },
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Anggota",
+         "division":"Studio",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      },
+      {
+         "name":"Jhon Doe",
+         "image_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDS8xjrcJtrqkm7bKZm_PDQxHBdPhlpO7dzg&usqp=CAU",
+         "position":"Ketua Divisi",
+         "division":"Humas",
+         "motivation":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed esse doloremque nostrum, fuga fugit minima quod delectus",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com"
+      }
+   ],
+   "testimonial":[
+      {
+         "name":"Winda Basudara",
+         "title":"Brand Ambasador RRQ",
+         "photo_url":"https://yt3.ggpht.com/xEYn5khZSsMHR9Qp5039LC5u1jQt7SeH-eg_3dicKWeVZ0RPMVxVqOOgniRCKhiZnI0vdQkc1Dc=s900-c-k-c0x00ffffff-no-rj",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com",
+         "testimonial":"RRQ Jaya Jaya Jaya"
+      },
+      {
+         "name":"Haruna Kawaguchi",
+         "title":"Actor",
+         "photo_url":"https://asianwiki.com/images/4/43/One_Week_Friends-002.jpg",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com",
+         "testimonial":"Cantiknya gaada lawan, Cantik banget, Damage nya ga abis abis"
+      },
+      {
+         "name":"Kento Yamazaki",
+         "title":"Actor",
+         "photo_url":"https://i.mydramalist.com/dN0b0_5f.jpg",
+         "facebook":"https://facebook.com",
+         "twitter":"https://twitter.com",
+         "instagram":"https://instagram.com",
+         "testimonial":"Cowo beruntung, kalau main film lawan cewe nya cantik semua"
+      }
+   ]
 }

@@ -95,7 +95,7 @@
         d-flex
       "
     >
-      <h1 class="display-3 text-white align-self-end">Tentang Silver</h1>
+      <h1 class="display-3 text-white align-self-end">{{ title }}</h1>
     </div>
   </header>
 </template>
@@ -106,6 +106,9 @@ export default {
   computed: {
     activeMenu() {
       return this.$store.getters['ui/getActiveMenu']
+    },
+    title() {
+      return this.$store.getters['ui/getTitleAbout']
     },
   },
 }

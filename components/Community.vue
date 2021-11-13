@@ -30,7 +30,7 @@ export default {
   props: {
     title: { type: String, default: '' },
     desc: { type: String, default: '' },
-    imageSrc: { type: String, default: '~/assets/images/img_1.jpg' },
+    imageSrc: { type: String, default: '' },
     slug: { type: String, default: '' },
   },
 }
