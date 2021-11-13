@@ -22,15 +22,22 @@
         <div id="miriUiKitNavbarLanding" class="collapse navbar-collapse">
           <div class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Beranda</a>
+              <a
+                :class="'nav-link' + (activeMenu === 'home' ? ' active' : '')"
+                href="#home"
+                >Beranda</a
+              >
             </li>
 
             <li class="nav-item dropdown">
               <a
                 href="#about"
-                class="nav-link dropdown-toggle"
+                :class="
+                  'nav-link dropdown-toggle' +
+                  (activeMenu === 'about' ? ' active' : '')
+                "
                 data-toggle="dropdown"
-                @click="$router.push('#about')"
+                @click.prevent="$router.push('#about')"
               >
                 Tentang
               </a>
@@ -53,15 +60,24 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#news">Berita</a>
+              <a
+                :class="'nav-link' + (activeMenu === 'news' ? ' active' : '')"
+                href="#news"
+                >Berita</a
+              >
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#blog">Blog</a>
+              <a
+                :class="'nav-link' + (activeMenu === 'blog' ? ' active' : '')"
+                href="#blog"
+                >Blog</a
+              >
             </li>
 
             <button
-              class="btn btn-outline-primary btn-sm ml-lg-3"
+              class="btn btn-soft-primary btn-sm ml-lg-3"
+              :disabled="activeMenu === 'join'"
               @click="$router.push('/join')"
             >
               Gabung
@@ -84,7 +100,10 @@
         {{ description }}
       </p>
       <p class="mt-3 mb-5">
-        <button class="btn btn-soft-primary" @click="$router.push('#about')">
+        <button
+          class="btn btn-soft-primary"
+          @click.prevent="$router.push('#about')"
+        >
           Lihat lebih lanjut
         </button>
       </p>
@@ -124,6 +143,9 @@ import TextConstant from '~/static/text'
 export default {
   name: 'HeaderLandingLayoutComponents',
   computed: {
+    activeMenu() {
+      return this.$store.getters['ui/getActiveMenu']
+    },
     description() {
       return TextConstant.descHeaderLanding
     },

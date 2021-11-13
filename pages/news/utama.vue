@@ -20,6 +20,9 @@ import SidebarComponent from '~/containers/news/components/SidebarList.vue'
 export default {
   name: 'UtamaNewsPages',
   components: { ListNewsScreen, SidebarComponent },
+  mounted() {
+    this.$store.commit('ui/setActiveMenu', 'news')
+  },
 }
 </script>
 

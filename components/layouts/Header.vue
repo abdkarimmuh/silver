@@ -20,13 +20,20 @@
         <div id="miriUiKitNavbar" class="collapse navbar-collapse">
           <div class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/">Beranda</a>
+              <a
+                :class="'nav-link' + (activeMenu === 'home' ? ' active' : '')"
+                href="/"
+                >Beranda</a
+              >
             </li>
 
             <li class="nav-item dropdown">
               <a
                 href=""
-                class="nav-link dropdown-toggle"
+                :class="
+                  'nav-link dropdown-toggle' +
+                  (activeMenu === 'about' ? ' active' : '')
+                "
                 data-toggle="dropdown"
               >
                 Tentang
@@ -50,15 +57,26 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/news"> Berita </a>
+              <a
+                :class="'nav-link' + (activeMenu === 'news' ? ' active' : '')"
+                href="/news"
+              >
+                Berita
+              </a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/blog"> Blog </a>
+              <a
+                :class="'nav-link' + (activeMenu === 'blog' ? ' active' : '')"
+                href="/blog"
+              >
+                Blog
+              </a>
             </li>
 
             <button
-              class="btn btn-outline-primary btn-sm ml-lg-3"
+              class="btn btn-soft-primary btn-sm ml-lg-3"
+              :disabled="activeMenu === 'join'"
               @click="$router.push('/join')"
             >
               Gabung
@@ -73,6 +91,11 @@
 <script>
 export default {
   name: 'HeaderLayoutComponents',
+  computed: {
+    activeMenu() {
+      return this.$store.getters['ui/getActiveMenu']
+    },
+  },
 }
 </script>
 

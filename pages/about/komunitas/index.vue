@@ -10,6 +10,9 @@ export default {
   name: 'KomunitasAboutPages',
   components: { KomunitasAboutScreen },
   layout: 'about',
+  mounted() {
+    this.$store.commit('ui/setActiveMenu', 'about')
+  },
 }
 </script>
 

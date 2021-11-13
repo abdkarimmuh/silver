@@ -10,6 +10,9 @@ export default {
   name: 'PengurusAboutPages',
   components: { PengurusAboutScreen },
   layout: 'about',
+  mounted() {
+    this.$store.commit('ui/setActiveMenu', 'about')
+  },
 }
 </script>
 

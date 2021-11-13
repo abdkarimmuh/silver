@@ -2911,8 +2911,8 @@ input[type="button"].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #ffffff;
-  background-color: #E95225; }
+  color: #E95225;
+  background-color: #252631; }
 
 .nav-fill .nav-item {
   flex: 1 1 auto;
@@ -3156,9 +3156,9 @@ input[type="button"].btn-block {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #ffffff; }
+  color: #E95225; }
   .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-    color: #ffffff; }
+    color: #E95225; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff; }
@@ -3171,7 +3171,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #ffffff; }
+  color: #E95225; }
 
 .navbar-dark .navbar-toggler {
   color: #ffffff;
@@ -3183,9 +3183,9 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-text {
   color: #ffffff; }
   .navbar-dark .navbar-text a {
-    color: #ffffff; }
+    color: #E95225; }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-      color: #ffffff; }
+      color: #E95225; }
 
 .card {
   position: relative;
@@ -8369,8 +8369,8 @@ input[type=range] {
       margin-right: 5px; } }
 
 .nav-pills.nav-pills-icon-rounded .show .nav-link, .nav-pills.nav-pills-icon-rounded .nav-link.active {
-  color: #ffffff;
-  background-color: #E95225; }
+  color: #E95225;
+  background-color: #252631; }
 
 .nav-pills.nav-pills-icon-text .nav-link {
   display: flex;
@@ -8390,8 +8390,8 @@ input[type=range] {
       padding: 10px 9px 6px 9px; } }
 
 .nav-pills.nav-pills-icon-text .show .nav-link, .nav-pills.nav-pills-icon-text .nav-link.active {
-  color: #ffffff;
-  background-color: #E95225; }
+  color: #E95225;
+  background-color: #252631; }
 
 .tab-content-vertical {
   padding-top: 0; }
@@ -8401,7 +8401,7 @@ input[type=range] {
   .card-tab .card-header .card-header-pills {
     margin: 0; }
   .card-tab .card-header .nav-link {
-    color: #ffffff; }
+    color: #E95225; }
   .card-tab .card-header .show .nav-link, .card-tab .card-header .nav-link.active {
     color: #E95225;
     background-color: #ffffff;

@@ -19,6 +19,9 @@ import SidebarComponent from '~/containers/news/components/Sidebar.vue'
 export default {
   name: 'DetailNewsPages',
   components: { NewsDetailScreen, SidebarComponent },
+  mounted() {
+    this.$store.commit('ui/setActiveMenu', 'news')
+  },
 }
 </script>
 

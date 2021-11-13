@@ -19,6 +19,7 @@ export default {
     },
   },
   async mounted() {
+    this.$store.commit('ui/setActiveMenu', 'home')
     await this.callServices()
   },
   methods: {

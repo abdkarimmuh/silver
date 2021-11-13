@@ -20,6 +20,9 @@ import SidebarComponent from '~/containers/blog/components/Sidebar.vue'
 export default {
   name: 'BlogPages',
   components: { BlogScreen, SidebarComponent },
+  mounted() {
+    this.$store.commit('ui/setActiveMenu', 'blog')
+  },
 }
 </script>
 
