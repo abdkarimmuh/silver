@@ -85,7 +85,7 @@
         "
       >
         <span class="navbar-text">
-          &copy; 2021.
+          &copy; {{ years }}.
           <a href="https://github.com/setakarim/silver" target="_blank">
             Silver Web Apps.
           </a>
@@ -128,6 +128,9 @@ export default {
     },
     community() {
       return this.$store.getters['landing/getFooterCommunity']
+    },
+    years() {
+      return process.env.years
     },
   },
   methods: {

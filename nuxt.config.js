@@ -65,5 +65,6 @@ export default {
     baseUrl: process.env.BASE_URL,
     mockUrl: 'http://localhost:4000',
     useMock: true,
+    years: process.env.YEARS,
   },
 }
