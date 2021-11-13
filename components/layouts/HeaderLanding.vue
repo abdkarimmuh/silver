@@ -76,11 +76,12 @@
         container
         text-white
         justify-content-center
+        align-items-center
       "
     >
       <h1 class="display-3 text-white">Silver</h1>
       <p class="h3 font-weight-light text-white">
-        A beautiful premium bootstrap 4 developed by bootstrapdash.
+        {{ description }}
       </p>
       <p class="mt-3 mb-5">
         <button class="btn btn-soft-primary" @click="$router.push('#about')">
@@ -118,9 +119,14 @@
 </template>
 
 <script>
+import TextConstant from '~/static/text'
+
 export default {
   name: 'HeaderLandingLayoutComponents',
   computed: {
+    description() {
+      return TextConstant.descHeaderLanding
+    },
     facebook() {
       return this.$store.getters['landing/getContact'].facebook
     },

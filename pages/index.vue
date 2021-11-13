@@ -24,8 +24,7 @@ export default {
   methods: {
     async callServices() {
       this.$store.dispatch('ui/showLoading')
-      await this.$store.dispatch('landing/getContact')
-      await this.$store.dispatch('landing/getTestimonial')
+      await this.$store.dispatch('landing/getAllDataLanding')
       this.$store.dispatch('ui/hideLoading')
     },
   },

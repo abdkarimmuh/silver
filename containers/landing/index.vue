@@ -3,8 +3,8 @@
     <!-- ABOUT -->
     <section id="about" class="pt-5"></section>
     <about-section />
-    <!-- DIVISION -->
-    <division-section />
+    <!-- COMMUNITY -->
+    <community-section />
     <!-- NEWS -->
     <section id="news" class="pt-5"></section>
     <news-section />
@@ -24,7 +24,7 @@
 
 <script>
 import AboutSection from './about.vue'
-import DivisionSection from './division.vue'
+import CommunitySection from './community.vue'
 import NewsSection from './news.vue'
 import PartnerSection from './partner.vue'
 import JoinUsSection from './join.vue'
@@ -36,7 +36,7 @@ export default {
   name: 'LandingContainers',
   components: {
     AboutSection,
-    DivisionSection,
+    CommunitySection,
     NewsSection,
     PartnerSection,
     JoinUsSection,

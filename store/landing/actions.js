@@ -17,7 +17,7 @@ export const getContact = async ({ commit }) => {
     commit('setAddress', res.address)
     return res
   } catch (error) {
-    console.error('err: ', error)
+    console.error('[LANDING]', '[getContact]', '[ERROR]', error)
     throw error
   }
 }
@@ -28,7 +28,18 @@ export const getTestimonial = async ({ commit }) => {
     commit('setTestimonial', res)
     return res
   } catch (error) {
-    console.error('err: ', error)
+    console.error('[LANDING]', '[getTestimonial]', '[ERROR]', error)
     throw error
   }
+}
+
+export const getAbout = async ({ dispatch }) => {
+  await dispatch('about/getAbout', null, { root: true })
+}
+
+export const getAllDataLanding = async ({ dispatch }) => {
+  await dispatch('getContact')
+  await dispatch('getTestimonial')
+  await dispatch('about/getAbout', null, { root: true })
+  await dispatch('about/getCommunity', null, { root: true })
 }
