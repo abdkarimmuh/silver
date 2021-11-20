@@ -11,7 +11,7 @@
       <h3 class="mb-4 text-primary text-center">Visi</h3>
       <p class="text-center font-italic">{{ vission }}</p>
       <h3 class="mb-4 text-primary text-center mt-5">Misi</h3>
-      <div class="text-center" v-html="mission">{{ mission }}</div>
+      <div class="text-center" v-html="mission"></div>
     </div>
     <div class="container mt-5">
       <h3 class="text-primary">Komunitas</h3>

@@ -8198,7 +8198,8 @@ footer {
     border-radius: 0.25rem;
     border-color: #E95225;
     border-width: 2px;
-    margin-right: 18px;
+    margin-right: 9px;
+    margin-left: 9px;
     font-size: 12px;
     padding: 8px 9px;
     height: 34px;
@@ -8210,6 +8211,18 @@ footer {
       color: #ffffff; }
     @media screen and (max-width: 576px) {
       .pagination .page-item .page-link {
+        height: 28px;
+        min-width: 28px;
+        margin-right: 4px;
+        padding: 5px 7px; } }
+  .pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #ffffff;
+    border-color: #dee2e6; }
+    @media screen and (max-width: 576px) {
+      .pagination .page-item.disabled .page-link {
         height: 28px;
         min-width: 28px;
         margin-right: 4px;

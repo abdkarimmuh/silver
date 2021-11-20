@@ -1,9 +1,7 @@
 import axios from 'axios'
 import { adapterAbout, adapterCommunity, adapterOrganizer } from './adapter'
 
-const SERVICES = axios.create({
-  baseURL: process.env.mockUrl,
-})
+const SERVICES = axios.create({ baseURL: process.env.mockUrl })
 
 export default {
   getAbout: async () => {
@@ -12,7 +10,7 @@ export default {
       console.debug('[RESPONSE]', '[getAbout]', response)
       return adapterAbout(response.data)
     } catch (error) {
-      console.error('ERROR', ['getAbout', error])
+      console.error('[ERROR]', ['getAbout'], error)
       throw error
     }
   },
@@ -22,7 +20,7 @@ export default {
       console.debug('[RESPONSE]', '[getCommunity]', response)
       return adapterCommunity(response.data)
     } catch (error) {
-      console.error('ERROR', ['getCommunity', error])
+      console.error('[ERROR]', ['getCommunity'], error)
       throw error
     }
   },
@@ -32,7 +30,7 @@ export default {
       console.debug('[RESPONSE]', '[getCommunityDetail]', response)
       return adapterCommunity(response.data)[0]
     } catch (error) {
-      console.error('ERROR', ['getCommunityDetail', error])
+      console.error('[ERROR]', ['getCommunityDetail'], error)
       throw error
     }
   },
@@ -42,7 +40,7 @@ export default {
       console.debug('[RESPONSE]', '[getOrganizer]', response)
       return adapterOrganizer(response.data)
     } catch (error) {
-      console.error('ERROR', ['getOrganizer', error])
+      console.error('[ERROR]', ['getOrganizer'], error)
       throw error
     }
   },

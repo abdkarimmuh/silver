@@ -24,5 +24,4 @@ export const getCommunity = (state) =>
 
 export const getYoutubeUrl = (state) => state.youtubeUrl
 export const getOrganizer = (state) => state.organizer
-
 export const getCommunityDetail = (state) => state.communityDetail

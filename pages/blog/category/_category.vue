@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-9">
-          <blog-screen />
+          <blog-screen :category="category" />
         </div>
         <div class="col-md-3">
           <sidebar-component />
@@ -20,6 +20,11 @@ import SidebarComponent from '~/containers/blog/components/Sidebar.vue'
 export default {
   name: 'BlogCategoryPages',
   components: { BlogScreen, SidebarComponent },
+  computed: {
+    category() {
+      return this.$route.params.category
+    },
+  },
   mounted() {
     this.$store.commit('ui/setActiveMenu', 'blog')
   },

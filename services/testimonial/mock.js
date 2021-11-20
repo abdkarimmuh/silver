@@ -1,9 +1,7 @@
 import axios from 'axios'
 import { adapterTestimonial } from './adapter'
 
-const SERVICES = axios.create({
-  baseURL: process.env.mockUrl,
-})
+const SERVICES = axios.create({ baseURL: process.env.mockUrl })
 
 export default {
   getTestimonial: async () => {
@@ -12,7 +10,7 @@ export default {
       console.debug('[RESPONSE]', '[getTestimonial]', response)
       return adapterTestimonial(response.data)
     } catch (error) {
-      console.error('ERROR', ['getTestimonial', error])
+      console.error('[ERROR]', ['getTestimonial'], error)
       throw error
     }
   },
