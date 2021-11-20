@@ -13,51 +13,21 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
+        <div v-for="item in blogList" :key="item.id" class="col-md-4">
           <div class="card border-0">
-            <img src="~/assets/images/team-1.jpg" class="custom-image-blog" />
+            <img :src="item.imageUrl" class="custom-image-blog" />
             <div class="card-body px-0">
-              <h5 class="card-title mb-0">Judul Blog 1</h5>
+              <h5 class="card-title mb-0">{{ item.title }}</h5>
               <div class="font-weight-medium text-primary pt-1 pb-2">
-                Anonymus
+                {{ item.authorName }}
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
-              </p>
-              <button class="btn btn-sm btn-soft-primary">Selengkapnya</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card border-0">
-            <img src="~/assets/images/team-2.jpg" class="custom-image-blog" />
-            <div class="card-body px-0">
-              <h5 class="card-title mb-0">Judul Blog 2</h5>
-              <div class="font-weight-medium text-primary pt-1 pb-2">
-                Anonymus
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
-              </p>
-              <button class="btn btn-sm btn-soft-primary">Selengkapnya</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card border-0">
-            <img src="~/assets/images/team-3.jpg" class="custom-image-blog" />
-            <div class="card-body px-0">
-              <h5 class="card-title mb-0">Judul Blog 3</h5>
-              <div class="font-weight-medium text-primary pt-1 pb-2">
-                Anonymus
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut.
-              </p>
-              <button class="btn btn-sm btn-soft-primary">Selengkapnya</button>
+              <p>{{ item.content }}</p>
+              <button
+                class="btn btn-sm btn-soft-primary"
+                @click.prevent="$router.push('/blog/' + item.id)"
+              >
+                Selengkapnya
+              </button>
             </div>
           </div>
         </div>
@@ -69,6 +39,12 @@
 <script>
 export default {
   name: 'BlogLandingContainers',
+  computed: {
+    blogList() {
+      const blogList = this.$store.getters['blog/getBlogList']
+      return blogList.slice(0, 3)
+    },
+  },
 }
 </script>
 

@@ -50,4 +50,5 @@ export const getAllDataLanding = async ({ dispatch }) => {
   await dispatch('getTestimonial')
   await dispatch('about/getAbout', null, { root: true })
   await dispatch('about/getCommunity', null, { root: true })
+  await dispatch('blog/getBlogList', {}, { root: true })
 }
