@@ -149,14 +149,16 @@ body {
 
 .author-pic {
   display: flex;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   position: relative;
   padding: 0;
+  margin-right: 8px;
   align-items: center; }
   .author-pic img {
-    width: 40px;
-    height: 40px;
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
     border-radius: 50%; }
 
 .author-details {

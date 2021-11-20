@@ -11,7 +11,11 @@
               {{ item.authorName }}
             </div>
             <p>{{ item.content }}</p>
-            <a href="" class="text-muted" @click.prevent="detail(item.id)">
+            <a
+              href=""
+              class="text-muted"
+              @click.prevent="$router.push('/blog/' + item.id)"
+            >
               Selengkapnya
             </a>
           </div>
@@ -71,9 +75,6 @@ export default {
         page,
       })
       this.isFetch = false
-    },
-    detail(id) {
-      this.$router.push('/blog/' + id)
     },
   },
 }

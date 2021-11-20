@@ -1,54 +1,61 @@
 <template>
   <div>
-    <img src="~/assets/images/team-1.jpg" class="custom-image-blog" />
-    <h2 class="mt-5 mb-3">Detail</h2>
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. It was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.
-    </p>
-    <p>
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC, making it over
-      2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
-      College in Virginia, looked up one of the more obscure Latin words,
-      consectetur, from a Lorem Ipsum passage, and going through the cites of
-      the word in classical literature, discovered the undoubtable source. Lorem
-      Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-      Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
-      book is a treatise on the theory of ethics, very popular during the
-      Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-      amet..", comes from a line in section 1.10.32. The standard chunk of Lorem
-      Ipsum used since the 1500s is reproduced below for those interested.
-      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
-      Cicero are also reproduced in their exact original form, accompanied by
-      English versions from the 1914 translation by H. Rackham.
-    </p>
-    <div class="miri-ui-kit-demo mt-4">
-      <span class="badge badge-pill badge-warning">Kategori 1</span>
-      <span class="badge badge-pill badge-warning">Kategori 2</span>
-    </div>
-    <div class="row align-items-center px-3 mt-5">
-      <span class="author-pic">
-        <img src="~/assets/images/face_1.jpg" />
-      </span>
-      <div class="author-details">
-        <div class="author-name">Dominic Bowers</div>
-        <div class="author-time">Publikasi pada 18 September 2021</div>
+    <loading-components v-if="isFetch" />
+    <div v-else>
+      <img :src="detailBlog.imageUrl" class="custom-image-blog" />
+      <h2 class="mt-5 mb-3">{{ detailBlog.title }}</h2>
+      <p v-html="detailBlog.content" />
+      <div class="miri-ui-kit-demo mt-4">
+        <span
+          v-for="(item, index) in detailBlog.category"
+          :key="index"
+          class="badge badge-pill badge-warning"
+        >
+          {{ item }}
+        </span>
+      </div>
+      <div class="row align-items-center px-3 mt-5">
+        <span class="author-pic">
+          <img :src="detailBlog.authorImageUrl" class="custom-image-author" />
+        </span>
+        <div class="author-details">
+          <div class="author-name">{{ detailBlog.authorName }}</div>
+          <div class="author-time">
+            Publikasi pada {{ detailBlog.postedDate }}
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import LoadingComponents from '~/components/Loading.vue'
+
 export default {
   name: 'DetailBlogContainers',
+  components: { LoadingComponents },
+  data() {
+    return {
+      isFetch: false,
+    }
+  },
+  computed: {
+    detailBlog() {
+      return this.$store.getters['blog/getDetailBlog']
+    },
+  },
+  async mounted() {
+    await this.getBlogDetail()
+  },
+  methods: {
+    async getBlogDetail() {
+      this.isFetch = true
+      const id = this.$route.params.id
+      await this.$store.dispatch('blog/getBlogDetail', id)
+      this.isFetch = false
+    },
+  },
 }
 </script>
 

@@ -53,17 +53,13 @@
       <h6 class="text-primary">Kategori</h6>
     </div>
     <ul class="px-3">
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 1</a>
-      </li>
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 2</a>
-      </li>
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 3</a>
-      </li>
-      <li class="mb-1">
-        <a href="#" class="url-text">Category 4</a>
+      <li v-for="item in categoryList" :key="item.slug" class="mb-1">
+        <a
+          href=""
+          class="url-text"
+          @click.prevent="$router.push('/blog/category/' + item.slug)"
+          >{{ item.name }}</a
+        >
       </li>
     </ul>
   </div>
@@ -72,6 +68,19 @@
 <script>
 export default {
   name: 'SideContentBlogComponents',
+  computed: {
+    categoryList() {
+      return this.$store.getters['blog/getCategoryList']
+    },
+  },
+  async mounted() {
+    await this.getCategoryList()
+  },
+  methods: {
+    async getCategoryList() {
+      await this.$store.dispatch('blog/getCategoryList')
+    },
+  },
 }
 </script>
 

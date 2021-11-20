@@ -12,7 +12,14 @@ export default {
     try {
       console.debug('[REQUEST]', '[getBlogList]', { page, limit, category })
       let response = await SERVICES.get('/blog')
-      response = { ...response, page, limit }
+      response = {
+        ...response,
+        data: {
+          ...response.data,
+          page,
+          limit,
+        },
+      }
       console.debug('[RESPONSE]', '[getBlogList]', response)
       return adapterBlogList(response.data)
     } catch (error) {
